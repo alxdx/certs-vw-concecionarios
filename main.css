@@ -1,0 +1,7536 @@
+@font-face {
+    font-family: 'VWText-Regular';
+    src: url('https://vw-angelopolis.com.mx/Assets/fonts/VWText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VWHeadWeb-Light1';
+    src: url('https://vw-angelopolis.com.mx/Assets/fonts/VWText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VWHead-Bold';
+    src: url('https://vw-angelopolis.com.mx/Assets/fonts/VWText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*Begin Ajustes nuevos*/
+.modelos-section .title-interior h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.namecomerciales {
+    color: #fff;
+}
+
+.item-modelo h4.model-name {
+    font-size: 22px;
+    text-align: center;
+}
+
+.back-comerciales-Auto {
+    background-color: #001D50;
+}
+
+.item-modelo h4.backcolor, .item-modelo span.backcolor {
+    color: #000;
+}
+
+.item-modelo .btn-modelos-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    .item-modelo .btn-modelos-home .btn {
+        width: 48%;
+        font-size: 15px;
+    }
+
+       
+    .item .btn-modelos-home .btn:hover {
+            color: #001D50 !important;
+        }
+
+.item-modelo .btn-modelos-home .btn:hover {
+    color: #4cc7f4 !important;
+}
+
+.Centralogo2 {
+    position: absolute;
+    top: 29px;
+    right: 20px;
+}
+
+    .Centralogo2 img {
+        width: 93px !important;
+    }
+/*Ajustes nuevos fin*/
+.WAMobil {
+    /*display: none;*/
+    color: black;
+}
+
+    .WAMobil img {
+        width: 25px !important;
+        display: block;
+    }
+
+.iconWhatsappMenu {
+    display: none;
+}
+
+.backLoadP, .backLoadP2 {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.76);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000);
+    color: white;
+    font-size: 18px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+p#subtitle {
+    font-size: 32px;
+    font-family: 'VWHead-Bold';
+}
+/*whatsapp formulario*/
+.backLoadPWhat {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.76);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000);
+    color: white;
+    font-size: 18px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modals-legales .modal-header button {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    margin-left: auto;
+    border: none;
+    background: #0C2D5D;
+}
+
+modals-legales .modal-content {
+    border: none;
+    border-radius: 0;
+}
+
+img.iconCitaServicio {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.modals-legales .modal-header button {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    margin-left: auto;
+    border: none;
+    background: #0C2D5D;
+}
+
+/*whatsapp formulario*/
+
+.cendiv {
+    margin: 0 auto;
+    width: 90%;
+    padding: 21px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.imgclose {
+    width: 70px;
+    position: absolute;
+    z-index: 4;
+    right: 90px;
+    margin-top: -90px;
+    cursor: pointer;
+}
+
+.TipoTel {
+    margin-left: 25px;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'VWHeadWeb-Light1';
+}
+
+section .container {
+    max-width: 1400px;
+    padding: 35px 15px;
+}
+
+
+h1 {
+    font-family: 'VWHead-Bold';
+    color: #000;
+    font-size: 45px;
+    text-align: center;
+    margin: 30px 0;
+    line-height: 1;
+}
+
+    h1 span {
+        font-family: 'VWHeadWeb-Light1';
+    }
+
+
+h2 {
+    font-family: 'VWHead-Bold';
+    color: #000;
+    font-size: 45px;
+    text-align: center;
+    margin: 30px 0;
+    line-height: 1;
+}
+
+    h2 span {
+        font-family: 'VWHeadWeb-Light1';
+    }
+
+h3 {
+    font-family: 'VWHead-Bold';
+    color: #000;
+    font-size: 25px;
+    margin: 25px 0;
+}
+
+    h3 span {
+        font-family: 'VWHeadWeb-Light1';
+    }
+
+.title-center-vw {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'VWText-Regular';
+}
+
+.title-border {
+    border-left: 2px solid #ccc;
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+h4 {
+    font-family: 'VWHead-Bold';
+    /*color: #000;*/
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+h5 {
+    font-family: 'VWHead-Bold';
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.info-afasa span {
+    font-family: 'VWHead-Bold';
+    font-size: 18px;
+    margin: 15px 0;
+    display: block;
+}
+
+/*COLORES VW*/
+.back-color.ColorSAVEIRO-CABINA-SENCILLA h4 {
+    color: #fff;
+}
+
+.back-color.ColorSAVEIRO-DOBLE-CABINA h4 {
+    color: #fff;
+}
+
+.back-color.ColorPOLO-EDICION-ESPECIAL h4 {
+    color: #fff;
+}
+
+.no-top-img {
+    margin-top: 0 !important;
+}
+
+.ColorGLI-40-ANIVERSARIO {
+    background-color: #dfe4e8;
+    color: #000;
+}
+
+.ColorNUEVO-TERAMONT {
+    background-color: #A63527;
+    color: #fff;
+}
+
+.ColorTAOS {
+    /*background-color: #1677B7;*/
+    background: rgb(166, 53, 39);
+    color: white;
+}
+
+.ColorNUEVO-NIVUS {
+    background-color: rgb(119, 11, 9);
+    color: #fff;
+}
+
+.ColorNIVUS {
+    background-color: rgb(119, 11, 9);
+    color: #fff;
+}
+
+.ColorVOLKSWAGEN-POLO {
+    background-color: rgb(119, 11, 9);
+    color: #fff;
+}
+
+.ColorNUEVO-VIRTUS {
+    background-color: rgb(49, 85, 132);
+    color: #fff;
+}
+
+
+.ColorPOLO-EDICION-ESPECIAL {
+    background: #0F1342;
+    color: white;
+}
+
+.ColorNUEVO-TAOS {
+    background-color: #1677B7;
+    color: white;
+}
+
+.ColorNUEVO-CROSS-SPORT {
+    background-color: #315584;
+    color: white;
+}
+
+.ColorCROSS-SPORT {
+    background-color: rgb(72, 74, 76);
+    color: white;
+}
+
+.ColorGOLF-GTI-OETTINGER {
+    background-color: #982721;
+    color: white;
+}
+
+.ColorTRANSPORTER-61 {
+    background-color: #acb2ba;
+    color: white;
+}
+
+.azul1 {
+    background-color: #005478;
+    color: white;
+}
+
+.ColorNUEVO-T-CROSS {
+    background-color: rgb(187, 151, 49);
+    color: black;
+}
+
+.ColorT-CROSS {
+    background-color: rgb(8, 35, 59);
+    color: white;
+}
+
+.rojo1, .ColorGol, .ColorVirtus, .ColorGOLF, .ColorNUEVO-GOL, .ColorGOL {
+    background-color: #e13023;
+    color: white;
+}
+
+.ColorJETTA-GLI {
+    background-color: #315584;
+    color: white;
+}
+
+.ColorNUEVO-JETTA-GLI {
+    background-color: rgb(0, 59, 107);
+    color: white;
+}
+
+.ColorVIRTUS {
+    background-color: #a51716;
+    color: white;
+}
+
+.azul2 {
+    background-color: #204289;
+}
+
+.cafe1 {
+    background-color: #af4f29;
+}
+
+.ColorNUEVO-POLO {
+    background-color: rgb(14, 19, 66);
+    color: white;
+}
+
+.gris1, .ColorPOLO, .ColorNUEVO-VENTO, .ColorTIGUAN {
+    background-color: #ededed;
+    color: black;
+}
+
+.ColorNUEVO-TIGUAN {
+    background-color: rgb(120, 123, 125);
+    color: white;
+}
+
+.ColorSAVEIRO {
+    background-color: rgb(221, 219, 213);
+    color: black;
+}
+
+.ColorNUEVO-GTI {
+    background-color: #770B09;
+    color: white;
+}
+
+.ColorVENTO {
+    background-color: rgb(153, 157, 159);
+    color: black;
+}
+
+.gris2, .ColorNUEVO-GOLF-R, .ColorGOLF-GTI {
+    background-color: #484a52;
+    color: white;
+}
+
+.gris3, .ColorTiguanEdicionLimitada {
+    background-color: #395056;
+}
+
+.gris4 {
+    background-color: #949ba3;
+    color: white;
+}
+
+.ColorNUEVO-JETTA {
+    background-color: rgb(166, 26, 45);
+    color: white;
+}
+
+.gris5 {
+    background-color: #9aa5a7;
+    color: white;
+}
+
+.ColorJETTA {
+    background-color: #A63527;
+    color: white;
+}
+
+.ColorTERAMONT {
+    background-color: rgb(212, 216, 212);
+    color: black;
+}
+
+.ColorNUEVO-TAIGUN,
+.ColorTAIGUN {
+    background-color: #315584;
+    color: white;
+}
+
+.verde1 {
+    background-color: #00373e;
+}
+
+.naranja1 {
+    background-color: #eb6e57;
+}
+
+
+.ColorNUEVO-SAVEIRO h4 {
+    color: black;
+}
+.ColorNUEVO-SAVEIRO {
+    background-color: #dcdad3;
+}
+.ColorNUEVO-SAVEIRO-EXTREME {
+    background-color: #656e68;
+    color: white;
+}
+
+/*COMERCIALES - VW*/
+.ColorNUEVO-CADDY-PASAJEROS, .iDaTCC {
+    background-color: #8E6144; /*prueba*/
+}
+
+.ColorCRAFTER-CHASIS-CABINA {
+    background-color: #c90d17;
+}
+
+.ColorTRANSPORTER-61-CARGO-VAN {
+    background-color: #d1d1d1;
+}
+
+.ColorTRANSPORTER-61-CHASIS {
+    background-color: #dad0bb;
+}
+
+.ColorTRANSPORTER-61-PASAJEROS {
+    background-color: #afbacc;
+}
+
+.ColorCRAFTER-PASAJEROS {
+    background-color: #203f77;
+}
+.ColorCRAFTER-PASAJEROS .backcolor {
+    color: white !important;
+}
+
+.ColorAMAROK-DUNE {
+    background-color: rgb(176, 168, 144);
+}
+
+.ColorAMAROK-HIGHLINE, .ColorAMAROK-V6 {
+    background-color: rgb(77, 78, 80);
+}
+
+.ColorAMAROK-TRENDLINE, .ColorCADDY-CARGO-VAN, .ColorNUEVO-CADDY-CARGO-VAN, .ColorNUEVO-CRAFTER-49T, .ColorCRAFTER-CARGO-VAN, .ColorSAVEIRO-CABINA-SENCILLA, .ColorTRANSPORTER-CARGO-VAN {
+    background-color: rgb(222, 222, 222);
+}
+
+.ColorNUEVO-CADDY-CARGO {
+    background-color: #8E6144;
+}
+
+.ColorCADDY-PASAJEROS {
+    background-color: rgb(154, 135, 123);
+}
+
+.ColorTRANSPORTER-CHASIS-CABINA {
+    background-color: rgb(187, 210, 209);
+}
+
+.ColorSAVEIRO-DOBLE-CABINA {
+    background-color: rgb(193, 14, 17);
+}
+
+.ColorTRANSPORTER-PASAJEROS {
+    background-color: rgb(9, 76, 166);
+}
+
+.ColorCADDY, .ColorAMAROK {
+    background-color: #ededed;
+}
+
+.ColorAMAROK-EDICION-LIMITADA {
+    background-color: #315584;
+}
+
+.ColorE-CRAFTER {
+    background-color: #012463;
+}
+
+.ColorE-CRAFTER h4.backcolor,
+.ColorE-CRAFTER h4 {
+    color:#fff !important;
+}
+
+.title-interior {
+    text-align: left;
+    padding-left: 100px;
+    width: 70%;
+    margin: 35px auto;
+}
+
+    .title-interior .title {
+        font-family: 'VWHead-Bold';
+        font-size: 24px;
+    }
+
+    .title-interior h2 {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .title-interior p {
+        margin-left: 75px;
+        font-family: 'VWText-Regular';
+    }
+
+        .title-interior p span {
+            font-family: 'VWHead-Bold';
+        }
+
+    .title-interior a {
+        display: inline-flex;
+        align-items: center;
+        border-bottom: 1px solid #001D50;
+        color: #001D50;
+        text-decoration: none;
+        margin-left: 75px;
+        font-family: 'VWText-Regular';
+    }
+
+        .title-interior a i {
+            padding-left: 10px;
+        }
+
+    .title-interior.txt-only {
+        padding: 40px 0;
+    }
+
+header {
+    position: fixed;
+    /*inset: 0px;
+	max-width: 100%;
+	overflow: hidden;*/
+    /*pointer-events: none;*/
+    z-index: 9;
+    width: 100%;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+}
+
+.header-vw {
+    width: 100%;
+    padding-bottom: 12px;
+    padding-top: 15px;
+    /*background-color: transparent;*/
+    height: 90px;
+}
+
+.comerciales-text {
+    font-family: 'VWHead-Bold';
+    color: #fff;
+}
+
+.info-vw {
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: flex-end;
+    -moz-box-align: center;
+    align-items: center;
+    position: relative;
+    padding: 0 100px;
+}
+
+    /*.info-vw img{
+	padding-left: 80px;
+	cursor: pointer;
+	z-index: 10;
+	position: absolute;
+	left: 0;
+}*/
+
+    .info-vw i.icon-vw_icon-menu {
+        padding-left: 80px;
+        cursor: pointer;
+        z-index: 10;
+        position: absolute;
+        left: 0;
+        color: #fff;
+        font-size: 23px;
+    }
+
+    .info-vw i:hover {
+        color: rgb(76, 199, 244);
+    }
+
+    .info-vw .info-dist {
+        color: #fff;
+        padding-left: 20px;
+        font-family: 'VWHead-Bold';
+    }
+
+        .info-vw .info-dist span {
+            font-family: 'VWText-Regular';
+        }
+
+    .info-vw .tel-dist {
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+        .info-vw .tel-dist span {
+            font-family: 'VWText-Regular';
+        }
+
+.logo-vw {
+    width: 100%;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    transition: all 0.5s ease-in 0s;
+    /*pointer-events: none;*/
+    position: absolute;
+    top: 0px;
+    transform: translateY( calc(16px + 28px + 12px + 0px - 24px + 1px) );
+}
+
+    .logo-vw .line-left {
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        -moz-box-flex: 1;
+        flex-grow: 1;
+        flex-basis: 166.66%;
+    }
+
+    .logo-vw .line-right {
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        -moz-box-flex: 1;
+        flex-grow: 1;
+    }
+
+    .logo-vw .img-logo-vw {
+        flex-shrink: 0;
+        overflow: hidden;
+        /*pointer-events: auto;*/
+        height: 48px;
+        width: 48px;
+        margin: 0px 12px;
+    }
+
+        .logo-vw .img-logo-vw i {
+            font-size: 47px;
+            color: #fff;
+        }
+
+        .logo-vw .img-logo-vw a:hover {
+            text-decoration: none;
+        }
+
+    .logo-vw.hide {
+        margin-top: -115px;
+    }
+
+.tel-dist a {
+    /*display: none;*/
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    z-index: 9;
+}
+
+/*estilos banner inicio*/
+.info-interior-auto {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    color: #fff;
+    z-index: 2;
+}
+
+@media screen and (min-width:200px) and (max-width: 767px) {
+    .info-interior-auto {
+        top: 8% !important;
+        text-align: center;
+        left: 0;
+        right: 0;
+    }
+
+        .info-interior-auto p {
+            margin-bottom: 0px !important;
+            font-size: 18px !important;
+        }
+
+        .info-interior-auto h1 {
+            font-size: 27px !important;
+        }
+
+    form .btn-white2 {
+        margin: 80% 3px auto !important;
+        display: inline-block;
+    }
+}
+
+@media screen and (width: 320px) and (height: 568px) {
+    .info-interior-auto {
+        top: 70% !important;
+        text-align: center;
+        left: 0;
+        right: 0;
+    }
+}
+
+.info-interior-auto h1 {
+    font-size: 45px;
+    font-family: 'VWHead-Bold';
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.info-interior-auto p {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.info-interior-auto article {
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+    .info-interior-auto article span {
+        font-size: 30px;
+        font-family: 'VWHead-Bold';
+        display: block;
+    }
+
+/*TXT HOME PRINCIPAL*/
+.info-home-slide {
+    position: absolute;
+    top: 36%;
+    left: 10%;
+    z-index: 9;
+}
+
+    .info-home-slide p {
+        font-size: 76px;
+        color: #fff;
+        line-height: 80px;
+    }
+
+        .info-home-slide p span {
+            font-family: 'VWHead-Bold';
+        }
+
+    .info-home-slide .btn {
+        margin: 30px 0;
+    }
+
+.sub-banner {
+    font-family: 'VWHeadWeb-Light1' !important;
+    font-size: 40px;
+}
+/*FONDO AZUL*/
+#teInteresa {
+    background: rgba(0, 0, 0, 0) radial-gradient(circle at 0% 0%, rgb(0, 67, 122) 0%, rgb(0, 30, 80) 100%) repeat scroll 0% 0%;
+    transform: translate3d(0px, 0px, 0px);
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.interior-fin h2 {
+    color: #fff;
+    margin: 30px 0 15px;
+}
+
+.interior-fin p {
+    font-size: 20px;
+}
+
+.interior-fin .btn-fin {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-fin .btn {
+    margin: 20px;
+}
+
+.interior-fin ul {
+    list-style: none;
+    text-align: left;
+}
+
+    .interior-fin ul li {
+        position: relative;
+        padding-left: 30px;
+    }
+
+        .interior-fin ul li::before {
+            content: "\e907";
+            font-family: 'icomoon' !important;
+            color: #fff;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+        }
+
+/*MENU MOVIL*/
+.drawer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    padding: 50px 50px;
+    margin: 0;
+    z-index: 19;
+    width: 100%;
+    height: 100vh;
+    /* trigger HW acceleration */
+    transform: translate3d(0,0,0);
+    transition: left .2s ease-in-out .3s;
+    background: rgba(0, 0, 0, 0) radial-gradient(circle at 0% 0%, rgb(0, 67, 122) 0%, rgb(0, 30, 80) 100%) repeat scroll 0% 0%;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.drawer-content {
+    position: relative;
+}
+
+.close-menu {
+    position: absolute;
+    top: -20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+    .close-menu i {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .close-menu:hover i {
+        color: #4FCAF7;
+    }
+
+    .close-menu span {
+        color: #fff;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .close-menu:hover span {
+        color: #4FCAF7;
+    }
+
+.open.drawer {
+    left: 0;
+}
+
+.option-menu {
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+    .option-menu ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+        /*.option-menu ul li{margin-bottom: 20px;}*/
+        .option-menu ul li {
+            margin-bottom: 9px;
+        }
+
+            .option-menu ul li a {
+                color: #fff;
+                font-size: 30px;
+                transition: all .3s ease;
+                text-decoration: none;
+                font-family: 'VWHeadWeb-Light1';
+            }
+
+                .option-menu ul li a:hover {
+                    color: #4FCAF7;
+                }
+
+                .option-menu ul li a.active {
+                    color: #4FCAF7;
+                    text-decoration: underline;
+                }
+
+/*SUB MENU*/
+.drawer2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -70%;
+    padding: 50px 50px;
+    margin: 0;
+    z-index: 20;
+    width: 70%;
+    height: 100vh;
+    background-color: #fff;
+    color: #000;
+    /* trigger HW acceleration */
+    transform: translate3d(0,0,0);
+    transition: right .2s ease-in-out .3s;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.drawer-content2 {
+    position: relative;
+}
+
+.open.drawer2 {
+    right: 0;
+}
+
+.drawer2 .option-menu li a {
+    color: #000;
+}
+
+.close-submenu {
+    position: absolute;
+    top: -20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+    .close-submenu i {
+        color: #000;
+        font-size: 23px;
+    }
+
+        .close-submenu i:hover {
+            color: rgb(0, 64, 197);
+        }
+
+    .close-submenu span {
+        padding-left: 10px;
+    }
+
+/*CRM*/
+.crm {
+    position: fixed;
+    top: calc(75% - 150px);
+    right: 10px;
+    width: 60px;
+    z-index: 50;
+}
+
+    .crm a {
+        position: relative;
+        display: flex;
+        width: 60px;
+        height: 60px;
+        color: #001E50;
+        margin-bottom: 15px;
+    }
+
+        .crm a article {
+            display: flex;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            background-color: #4cc7f4;
+            padding-left: 4px;
+            border-radius: 30px;
+            overflow: hidden;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+            .crm a article i {
+                font-size: 30px;
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+
+            .crm a article span {
+                width: 150px;
+                font-size: 14px;
+                line-height: 1;
+                white-space: nowrap;
+                padding-left: 10px;
+            }
+
+        .crm a:hover article {
+            position: absolute;
+            right: 0;
+            width: 200px;
+            height: 60px;
+        }
+
+/*SLIDER NUEVO HOME*/
+.slide-principal {
+    padding: 25px 0;
+}
+
+.slider-tab {
+    display: none;
+}
+
+.slider-mob {
+    display: none;
+}
+
+/*STILOS MENU INTEIOR*/
+.btn-menu-interior {
+    padding: 0 10px 0 40px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+    .btn-menu-interior.hide {
+        opacity: 1;
+        pointer-events: unset;
+    }
+
+    .btn-menu-interior a.collapsed::after {
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+        content: "\e901";
+        border: none;
+        font-family: 'icomoon' !important;
+        font-size: 20px;
+    }
+
+    .btn-menu-interior a::after {
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+        content: "\e915";
+        border: none;
+        font-family: 'icomoon' !important;
+        font-size: 20px;
+    }
+
+.menu-interior ul {
+    text-align: right;
+    padding-right: 90px;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+    .menu-interior ul li {
+        padding: 10px 0;
+    }
+
+        .menu-interior ul li a {
+            color: #001D50;
+            text-decoration: none;
+        }
+
+/*GENERALES BOTONES*/
+.btn:hover {
+    color: #fff;
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: none;
+}
+
+.btn {
+    margin: 20px auto;
+    width: 140px;
+    border-radius: 20px;
+    display: block;
+    font-family: 'VWText-Regular';
+}
+
+.btn-blue {
+    background-color: #001D50;
+    color: #fff;
+    border: 1px solid #001D50;
+    cursor: pointer;
+}
+
+.btn-falta {
+    background-color: transparent;
+    color: gray;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+    .btn-falta:hover {
+        background-color: transparent;
+        color: gray !important;
+        border: 1px solid gray;
+    }
+
+.btn-white {
+    background-color: transparent;
+    color: #001D50;
+    border: 1px solid #001D50;
+}
+
+    .btn-white:hover {
+        color: #0040C5;
+        border: 1px solid #0040C5;
+    }
+
+.btn-white2 {
+    background-color: #fff;
+    color: #001D50;
+    border: 1px solid #fff;
+}
+
+    .btn-white2:hover {
+        color: #001D50;
+        /*border: 1px solid #4cc7f4;*/
+        /*background-color: #4cc7f4;*/
+    }
+
+.btn-white3 {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/*GENERAL SLIDER*/
+.owl-theme .owl-dots {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width:200px) and (max-width: 767px) {
+    .owl-theme .owl-dots {
+        position: absolute;
+        bottom: unset;
+        left: 50%;
+        transform: translate(-50%, -15%);
+    }
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 13px !important;
+    height: 13px !important;
+    background: rgba(30,30,30,0.5) !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: rgba(0,0,0,0.8) !important;
+}
+
+/*SLIDER HOME VW*/
+.slider-vw-home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-vw {
+    width: 0%;
+}
+
+.video-vw {
+    width: 100%;
+    overflow: hidden;
+}
+
+.back-video {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    /*height: 100%;*/
+    /*background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0,0,0,0.50) 9%, rgba(0,0,0,0.41) 50%, rgba(0,0,0,0.20) 100%);*/
+    /*background: linear-gradient(to bottom, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.51) 40%, rgba(0,0,0,0.20) 100%);*/
+}
+
+.video-vw-familia {
+    width: 100%;
+    overflow: hidden;
+}
+
+    .video-vw-familia video {
+        width: 100%;
+    }
+
+.video-vw video {
+    object-fit: contain;
+    object-position: 50% 50%;
+    width: 100%;
+    /*height: 100%;*/
+    transition: filter 0.3s cubic-bezier(0.14, 1.12, 0.67, 0.99) 0s;
+    display: block;
+    /*pointer-events: none;*/
+    /*height: 100vh;*/
+}
+
+.slider-vw-home img {
+    width: 100%;
+    height: auto;
+}
+
+/*GENERAL FORMULARIO*/
+
+.form-control {
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-radius: 0;
+    height: 40px;
+    margin: 0 10px 15px;
+    font-size: 13px;
+    background-color: transparent;
+}
+
+    .form-control::placeholder {
+        color: #001D50;
+        font-size: 15px;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+.slc {
+    position: relative;
+    margin: 0 10px 15px;
+}
+
+    .slc::before {
+        content: "\e901";
+        font-family: 'icomoon' !important;
+        color: #001D50;
+        position: absolute;
+        right: 15px;
+        top: 9px;
+        z-index: -1;
+    }
+
+    .slc select {
+        width: 100%;
+        margin: 0;
+    }
+
+.custom-select {
+    color: #001D50;
+    background: transparent;
+    font-size: 15px;
+}
+
+    .custom-select:focus {
+        border-bottom: 1px solid #ced4da;
+        border-top: 1px solid transparent;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+    }
+
+.avisoPriv {
+    color: #001D50;
+    border-bottom: 1px solid #001D50;
+    text-decoration: none;
+    font-family: 'VWHead-Bold';
+    cursor: pointer;
+}
+
+    .avisoPriv:hover {
+        color: #001D50;
+        border-bottom: 1px solid #001D50;
+        text-decoration: none;
+    }
+
+.form-group {
+    position: relative;
+    width: calc(20% - 20px);
+    margin: 0 10px 15px;
+    font-size: 15px;
+}
+
+.form-label {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #001D50;
+    background-color: transparent;
+    z-index: 8;
+    transition: transform 150ms ease-out, font-size 150ms ease-out;
+    padding-left: 15px;
+}
+
+.focused .form-label {
+    transform: translateY(-125%);
+    font-size: 0.75em;
+    top: 5px;
+    padding-left: 0;
+}
+
+.form-input {
+    position: relative;
+    padding: 12px 0px 3px 0;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    /*box-shadow: 0 1px 0 0 #CED4DA;*/
+    transition: box-shadow 150ms ease-out;
+    border-bottom: 1px solid #CED4DA;
+}
+
+form .btn {
+    margin: 20px auto;
+}
+
+/*CHECKBOX*/
+.custom-control-label::before {
+    border: #001D50 solid 1px;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #001D50;
+    background-color: #001D50;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none;
+}
+
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+    background-color: transparent;
+    border-color: #001D50;
+}
+
+.custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+    border-color: #001D50;
+}
+
+.custom-control-label {
+    color: #001D50;
+}
+
+/*FORM HOME*/
+
+.form-home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+    .form-home .form-control {
+        width: calc(20% - 20px);
+    }
+
+    .form-home .slc {
+        width: calc(20% - 20px);
+    }
+
+        .form-home .slc .form-control {
+            width: 100%;
+        }
+
+.checkbox-item {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 10px;
+}
+
+.custom-checkbox {
+    margin: 0 15px;
+}
+
+/*FOOTER*/
+footer {
+    color: #001D50;
+    /*padding-top: 50px;*/
+    float: left;
+    width: 100%;
+}
+
+    footer .container {
+        max-width: 1400px;
+        border-top: 2px solid #001D50;
+        padding-top: 50px;
+    }
+
+.content-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    /*border-bottom: 1px solid #ccc;*/
+}
+
+.item-footer img {
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+}
+
+.item-footer {
+    /*width: 16.6%;*/
+    width: 14.2%;
+    padding: 0 10px;
+    border-right: 1px solid #000;
+}
+
+    .item-footer:last-child {
+        border: none;
+    }
+
+    .item-footer h3 {
+        font-size: 16px;
+        color: #1E1B1B;
+        margin: 0 0 20px 0;
+        font-family: 'VWHead-Bold';
+        text-align: center;
+    }
+
+    .item-footer ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+        .item-footer ul li {
+            font-size: 13px;
+            margin-bottom: 15px;
+            color: #515151;
+        }
+
+            .item-footer ul li a {
+                font-size: 14px;
+                color: #001D50;
+                text-decoration: none;
+            }
+
+                .item-footer ul li a:hover {
+                    color: #0040C5;
+                    /*border-bottom: 1px solid #0040C5;*/
+                }
+/*.item-footer ul li:first-child {
+        margin-bottom: 0px;
+    }
+    .item-footer ul li:nth-child(2) {
+        margin-bottom: 0px;
+    }*/
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    padding: 10px 0;
+    font-size: 13px;
+    flex-wrap: wrap;
+    border-top: 3px solid #001D50;
+}
+
+.copyrigth {
+    width: 100%;
+}
+
+.logo-xs {
+    background-color: #001d50;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+}
+
+.copyrigth a {
+    text-decoration: none;
+    color: #8a9cbb;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.copyrigth p {
+    text-decoration: none;
+    color: #8a9cbb;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.copyrigth a:first-child {
+    padding-left: 0;
+}
+
+.logo-xs p {
+    margin-bottom: 0;
+}
+
+.logo-xs span {
+    font-family: 'VWHead-Bold';
+    color: #fff;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .redes-sociales li a i {
+        font-size: 20px;
+        border: 1px solid #001D50;
+        border-radius: 100%;
+        padding: 4px;
+    }
+
+.copyrigth span {
+    color: #8a9cbb;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.logo-xs a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.exalogo {
+    margin: 0 5px;
+    width: 20px;
+}
+
+.ccase {
+    text-transform: capitalize;
+}
+
+.itemNuevo {
+    position: relative;
+    margin-bottom: 13px;
+}
+
+    .itemNuevo:last-child {
+        margin-bottom: 0px;
+    }
+
+    .itemNuevo i {
+        position: absolute;
+        font-size: 20px;
+        left: 0;
+        top: 25%;
+    }
+
+    .itemNuevo img {
+        position: absolute;
+        left: 0;
+        top: 20%;
+        width: 23px;
+        border-radius: 0;
+    }
+
+    .itemNuevo a {
+        padding-left: 30px;
+        color: #515151;
+        font-size: 14px;
+    }
+
+    .itemNuevo.itemWA a {
+        display: block;
+    }
+
+    .itemNuevo.itemWA span {
+        padding-left: 0;
+    }
+
+
+    .itemNuevo span {
+        display: block;
+        padding-left: 30px;
+        font-size: 13px;
+        line-height: 15px;
+        font-family: 'VWHead-Bold';
+        color: #1E1B1B;
+    }
+
+    .itemNuevo font {
+        display: block;
+        padding-left: 30px;
+        font-size: 14px;
+        color: #515151;
+        text-transform: lowercase;
+    }
+
+.infoDirFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.itemDirF {
+    font-family:    Arial, Helvetica, sans-serif;
+    width: 48%;
+}
+
+    .itemDirF p {
+        color: #515151;
+    }
+
+    .itemDirF h3 {
+        
+        font-family:    Arial, Helvetica, sans-serif;
+        color: #1E1B1B;
+        font-size: 17px;
+        margin: 16px 0;
+    }
+/*BANNER HOME*/
+.content-home-banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .content-home-banner .item-banner {
+        width: 48%;
+    }
+
+.item-banner .card-banner img {
+    width: 100%;
+    transition: transform 0.3s cubic-bezier(0.14, 1.12, 0.67, 0.99) 0s;
+    /*cursor: pointer;*/
+    /*object-fit: cover;
+	object-position: 66% 50%;
+	height: 100%;*/
+    height: auto;
+}
+
+.item-banner .card-banner:hover img {
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.item-banner.items .card-banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+    .item-banner.items .card-banner .img-card {
+        width: 40%;
+        overflow: hidden;
+    }
+
+.item-banner .card-banner .img-card {
+    overflow: hidden;
+}
+
+.item-banner.items .card-banner .info-card,
+.item-banner .card-banner .info-card {
+    padding: 0 30px;
+    width: 60%;
+}
+
+.info-card a {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid #001D50;
+    color: #001D50;
+    text-decoration: none;
+}
+
+    .info-card a:hover {
+        color: #0040C5;
+        border-bottom: 1px solid #0040C5;
+    }
+
+    .info-card a i {
+        margin-left: 10px;
+    }
+
+/*SLIDER MODELOS HOME*/
+.slider-modelos {
+    width: 94%;
+    margin: auto;
+}
+
+.slider-modelos-home .img-modelo {
+    margin-top: 70px;
+}
+
+.slider-modelos-home .back-color {
+    height: 160px;
+    position: absolute;
+    width: 100%;
+    margin: -70px 0 0;
+    z-index: -1;
+    padding: 10px;
+    /*color: #fff;*/
+}
+
+.slider-modelos-home h3 {
+    margin-bottom: 0;
+    font-family: 'VWHead-Bold';
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.slider-modelos-home span {
+    letter-spacing: 1px;
+}
+
+.btn-modelos-home .btn {
+    width: 90%;
+}
+
+.owl-carousel.slider-modelos-home .owl-nav.disabled {
+    display: block;
+}
+
+.owl-carousel.slider-modelos-home .owl-nav .owl-next {
+    right: -55px;
+    position: absolute;
+    top: 35%;
+    color: #001D50;
+    background: transparent;
+    font-size: 35px;
+}
+
+    .owl-carousel.slider-modelos-home .owl-nav .owl-next:hover {
+        background-color: transparent;
+        color: #001D50;
+    }
+
+.owl-carousel.slider-modelos-home .owl-nav .owl-prev {
+    left: -55px;
+    position: absolute;
+    top: 35%;
+    color: #001D50;
+    background: transparent;
+    font-size: 35px;
+}
+
+/*PROMOS HOME*/
+.promos-item-home {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.promos-home-info {
+    width: 48%;
+}
+
+    .promos-home-info h2 {
+        text-align: left;
+    }
+
+    .promos-home-info article {
+        font-size: 16px;
+        width: 90%;
+        line-height: 1.2;
+        margin-bottom: 25px;
+    }
+
+        .promos-home-info article span {
+            font-family: 'VWHead-Bold';
+        }
+
+    .promos-home-info .promo-fin {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+        .promos-home-info .promo-fin a {
+            width: 30%;
+        }
+
+        .promos-home-info .promo-fin .btn {
+            margin: 20px 20px 20px 0;
+            position: relative;
+        }
+
+.promo-fin .btn-white.collapsed::after {
+    content: "\e901";
+    font-family: 'icomoon' !important;
+    color: #001D50;
+    position: absolute;
+    font-size: 15px;
+    top: 9px;
+    right: 15px;
+}
+
+.promo-fin .btn-white::after {
+    content: "\e904";
+    font-family: 'icomoon' !important;
+    color: #001D50;
+    position: absolute;
+    font-size: 15px;
+    top: 9px;
+    right: 15px;
+}
+
+.promos-home-img {
+    width: 48%;
+    position: relative;
+}
+
+    .promos-home-img img {
+        width: 100%;
+        height: auto;
+        margin-top: 70px;
+    }
+
+    .promos-home-img .back-color {
+        height: 85%;
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        z-index: -1;
+        /*background: #c60101;*/
+    }
+
+.promoTxt {
+    font-size: 12px;
+    line-height: 1;
+    padding: 1rem;
+}
+
+
+/*CRM MÃ“VIL*/
+.menu-icon {
+    position: fixed;
+    z-index: 30;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+    .menu-icon a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        color: #001D50;
+        font-size: 18px;
+        text-decoration: none;
+        background: #4cc7f4;
+        border-radius: 50%;
+    }
+
+        .menu-icon a i {
+            font-size: 20px;
+        }
+
+.menu-open.show {
+    display: flex;
+}
+
+.menu-open.hide {
+    display: none;
+}
+
+.menu-close.show {
+    display: flex;
+}
+
+.menu-close.hide {
+    display: none;
+}
+
+.menu-list {
+    position: fixed;
+    z-index: 25;
+    bottom: 0;
+    right: 10px;
+    width: auto;
+    background: transparent;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+    .menu-list a {
+        display: flex;
+        align-items: center;
+        color: #001D50;
+        font-size: 14px;
+        margin-bottom: 0;
+        padding: 10px 10px;
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+        border: none;
+        background: #4cc7f4;
+        margin-top: 10px;
+        text-decoration: none;
+        line-height: 1;
+    }
+
+        .menu-list a i {
+            display: inline-block;
+            width: 15px;
+            font-size: 25px;
+            margin-right: 20px;
+            margin-left: 10px;
+        }
+
+    .menu-list.hidden {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .menu-list.show {
+        opacity: 1;
+        bottom: 70px;
+    }
+
+.menu-list-back {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+    .menu-list-back.show {
+        visibility: initial;
+        opacity: 1;
+    }
+
+    .menu-list-back.hide {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+.icon-whatsapp-mov {
+    position: fixed;
+    z-index: 30;
+    bottom: 70px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+    .icon-whatsapp-mov .ico {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        color: #fff;
+        font-size: 30px;
+        background-color: #06A606;
+        border-radius: 50%;
+    }
+
+    .icon-whatsapp-mov.up {
+        bottom: 250px;
+    }
+/*SECCIÃ“N COTIZACIÃ“N*/
+.form-section .container {
+    max-width: 1000px
+}
+
+.formulario h3 {
+    width: 100%;
+}
+
+.formulario h2 {
+    margin-bottom: 10px;
+}
+
+.formulario .slc {
+    width: calc(30% - 20px);
+}
+
+.formulario .form-group {
+    width: calc(30% - 20px);
+}
+
+/*CITA SERVICIO*/
+.formulario .form-home .checkbox-item {
+    justify-content: flex-start;
+    width: 30%;
+}
+
+/*THANK YOU PAGE*/
+.thank-page .container {
+    max-width: 700px;
+}
+
+.thank-page p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'VWText-Regular';
+}
+
+    .thank-page p span {
+        color: #001D50;
+        border-bottom: 1px solid #001D50;
+        font-family: 'VWHead-Bold';
+    }
+
+.thank-page .btn-tp {
+    display: flex;
+    margin-top: 45px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-tp .btn {
+    margin: 20px 15px;
+}
+
+.confirm-text {
+    font-family: 'VWHead-Bold' !important;
+    font-size: 20px;
+    color: black;
+}
+/*QUIENES SOMOS*/
+.section-qs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.img-qs {
+    width: 60%;
+}
+
+    .img-qs img {
+        width: 100%;
+    }
+
+.info-txt {
+    width: 40%;
+    padding: 0 50px;
+}
+
+    .info-txt ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+        .info-txt ul i {
+            margin-right: 10px;
+        }
+
+        .info-txt ul li {
+            position: relative;
+            padding-left: 30px;
+            line-height: 2;
+        }
+
+            .info-txt ul li:before {
+                content: "\e907";
+                font-family: 'icomoon' !important;
+                color: #001D50;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                z-index: -1;
+            }
+
+    .info-txt h2 {
+        text-align: left;
+    }
+
+.container.section-qs {
+    margin-bottom: 140px;
+    position: relative;
+}
+
+.section-qs .img-abs {
+    width: auto;
+    position: absolute;
+    right: 80px;
+    bottom: -130px;
+}
+
+.banner-inicio {
+    position: relative;
+}
+
+    .banner-inicio .info-interior-auto {
+        top: 50%;
+    }
+
+/*BOLSA DE TRABAJO*/
+.vacante-item {
+    width: 70%;
+    margin: 50px auto 0;
+}
+
+    .vacante-item p {
+        margin-left: 40px;
+    }
+
+.title-vacante {
+    color: #001D50;
+    font-family: 'VWHeadWeb-Light1';
+    font-size: 30px;
+    border-bottom: 1px solid #001D50;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+    .title-vacante span {
+        font-family: 'VWHead-Bold';
+    }
+
+.btn-bt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+    .btn-bt .btn {
+        width: 47%;
+    }
+
+.info-vacante {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .info-vacante .datos {
+        color: #ccc;
+    }
+
+        .info-vacante .datos span {
+            color: #898989;
+        }
+
+.vacantes-fin .container {
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.div-btn {
+    display: flex;
+    justify-content: center;
+}
+
+    .div-btn .btn {
+        margin: 20px;
+    }
+
+.btn-vacante a {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid #001D50;
+    color: #001D50;
+    text-decoration: none;
+}
+
+    .btn-vacante a:hover {
+        color: #0040C5;
+        border-bottom: 1px solid #0040C5;
+    }
+
+    .btn-vacante a i {
+        margin-left: 10px;
+    }
+
+.info-vacante .datos br {
+    display: none;
+}
+
+/*CONTACTO*/
+#contacto {
+    padding-top: 90px;
+}
+
+    #contacto .title-interior {
+        padding-left: 0;
+    }
+
+.formulario.contacto {
+    max-width: 1200px;
+}
+
+    .formulario.contacto h2 {
+        margin: 30px 0;
+    }
+
+.contacto .bloque2 {
+    width: 50%;
+}
+
+.bloque2 textarea.form-control {
+    width: calc(100% - 25px);
+}
+
+.contacto-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacto-mapa img {
+    width: 100%;
+}
+
+.contacto-mapa {
+    width: 65%;
+    height: 600px;
+}
+
+.datos-contacto {
+    width: 30%;
+}
+
+.contacto-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .contacto-item h3 {
+        margin: 15px 0;
+    }
+
+    .contacto-item a i {
+        margin-right: 10px;
+    }
+
+    .contacto-item a {
+        display: inline-table;
+        color: #001D50;
+        text-decoration: none;
+        border-bottom: 1px solid #001D50;
+        margin-bottom: 5px;
+    }
+
+        .contacto-item a:hover {
+            color: #0040C5;
+        }
+
+    .contacto-item p span {
+        font-family: 'VWHead-Bold';
+    }
+
+.directorio-content {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #ccc;
+    flex-wrap: wrap;
+}
+
+.directorio-item {
+    width: 25%;
+}
+
+    .directorio-item a {
+        color: #001D50;
+        text-decoration: none;
+        border-bottom: 1px solid #001D50;
+    }
+
+        .directorio-item a i {
+            margin-right: 10px;
+        }
+
+    .directorio-item p {
+        margin-bottom: 0;
+    }
+
+.form-home .bloque1 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloque1 .slc {
+    width: calc(50% - 20px);
+}
+
+.bloque1 .form-group {
+    width: calc(50% - 20px);
+}
+
+.bloque2 .form-group {
+    width: calc(50% - 20px);
+}
+
+/*promociones*/
+.inicio-promos {
+    padding-top: 90px;
+}
+
+    .inicio-promos .title-interior {
+        padding-left: 0;
+    }
+
+.title-servicio {
+    margin-top: 0;
+}
+
+    .title-servicio span {
+        display: block;
+    }
+
+.subtitle-servicio {
+    font-family: 'VWHead-Bold';
+}
+
+.promos-btn {
+    display: flex;
+    justify-content: center;
+}
+
+    .promos-btn .btn {
+        margin: 20px;
+    }
+
+        .promos-btn .btn.active {
+            background-color: #4cc7f4;
+        }
+
+/*MANTENIMIENTO*/
+.container.pm {
+    border-bottom: solid 1px #ccc;
+}
+
+    .container.pm h2 {
+        margin-bottom: 10px;
+    }
+
+.iconos-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.precios-content {
+    padding-bottom: 70px;
+}
+
+.iconos-item {
+    text-align: center;
+}
+
+    .iconos-item i {
+        font-size: 60px;
+        color: #001D50;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .iconos-item p {
+        font-family: 'VWText-Regular';
+    }
+
+.legales {
+    color: #aeb7bf;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'VWText-Regular';
+    margin: 25px 0;
+}
+
+    .legales a {
+        color: #aeb7bf;
+        text-decoration: underline;
+    }
+
+        .legales a.btn-legal {
+            font-size: 18px;
+        }
+
+    .legales span {
+        font-family: 'VWHead-Bold';
+    }
+
+.legal-auto {
+    padding-top: 90px;
+}
+
+    .legal-auto h2 {
+        text-align: center;
+    }
+/*TABLA MANTENIMIENTO*/
+.table-mant .km-mant td {
+    font-size: 13px;
+    width: 10%;
+    color: #ccc;
+    font-family: 'VWText-Regular';
+}
+
+.table-mant .precios-mant td {
+    font-size: 22px;
+    color: #001D50;
+}
+
+.table thead th {
+    border-bottom: 2px solid #001D50;
+    border-top: none;
+}
+
+.table-sm td {
+    vertical-align: middle;
+}
+
+.title-precio {
+    font-size: 25px;
+    font-family: 'VWHead-Bold';
+    font-weight: normal;
+}
+
+.table-mant .km-mant.seis td {
+    width: 13.3%;
+}
+
+/*TABLA MANTENIMIENTO MÃ“VIL*/
+.precios-movil {
+    display: none;
+}
+
+.item-pmovil a {
+    border-bottom: 2px solid #001D50;
+    font-size: 25px;
+    font-family: 'VWHead-Bold';
+    text-decoration: none;
+    color: #001D50;
+    position: relative;
+    padding: 5px;
+    /* el padding-right se agregÃ³ para abarcar el espacio del botÃ³n callapse */
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+    .item-pmovil a.collapsed::after {
+        content: "\e901";
+        font-family: 'icomoon' !important;
+        color: #001D50;
+        position: absolute;
+        right: 30px;
+        font-size: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .item-pmovil a::after {
+        content: "\e904";
+        font-family: 'icomoon' !important;
+        color: #001D50;
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        font-size: 25px;
+        transform: translateY(-50%);
+    }
+
+.t-movil .precios-mant {
+    font-size: 22px;
+    color: #001D50;
+}
+
+.t-movil tr td:first-child {
+    color: #ccc;
+    font-family: 'VWText-Regular';
+}
+
+/*LEASING*/
+.content-requisitos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-requisito {
+    width: 45%;
+}
+
+/*CARROCERÃA*/
+.carroceria-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    .carroceria-item .img-car {
+        width: 48%;
+    }
+
+        .carroceria-item .img-car img {
+            width: 100%;
+        }
+
+    .carroceria-item .info-car {
+        width: 48%;
+    }
+
+        .carroceria-item .info-car h2 {
+            text-align: left;
+        }
+
+        .carroceria-item .info-car ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+            .carroceria-item .info-car ul li i {
+                margin-right: 10px;
+            }
+
+.car2 {
+    padding: 35px 0;
+}
+
+    .car2 picture {
+        text-align: center;
+        display: block;
+    }
+
+.info-car ul li {
+    position: relative;
+    padding-left: 30px;
+}
+
+    .info-car ul li::before {
+        content: "\e907";
+        font-family: 'icomoon' !important;
+        color: #001D50;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+
+/*GARANTÃA*/
+.interior-fin.garantia-sec {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.garantia-sec ul {
+    text-align: left;
+    margin-top: 25px;
+}
+
+    .garantia-sec ul li {
+        padding-left: 30px;
+    }
+
+.garantia-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 35px 0;
+    align-items: center;
+}
+
+    .garantia-item .img-car {
+        width: 48%;
+    }
+
+        .garantia-item .img-car img {
+            width: 100%;
+        }
+
+    .garantia-item .info-car {
+        width: 48%;
+    }
+
+        .garantia-item .info-car h2 {
+            text-align: left;
+        }
+
+        .garantia-item .info-car ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+            .garantia-item .info-car ul li i {
+                margin-right: 10px;
+            }
+
+            .garantia-item .info-car ul li {
+                position: relative;
+                padding-left: 30px;
+                margin-bottom: 10px;
+            }
+/*.garantia-item  .info-car ul li::before{
+	content: "\e907";
+	font-family: 'icomoon' !important;
+	color: #001D50;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}*/
+.garantia-sec .btn {
+    width: auto;
+}
+
+.aplicar-garantia {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+.aplicar-garantia img {
+    max-width: 100%;
+}
+
+.aplicar-garantia span {
+    font-family: 'VWHead-Bold';
+}
+
+.costos-garantia {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+
+/* estas imÃ¡genes solo se deben mostrar en movil */
+#costosAccordion .card-img {
+    max-width: 100%;
+    display: none;
+}
+
+
+/* estas imÃ¡genes solo se deben mostrar en escritorio o tablet */
+#costosImagenes img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 990px) {
+    .costos-garantia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    #costosImagenes {
+        display: none;
+    }
+
+    #costosAccordion .card-img {
+        max-width: 100%;
+        display: block;
+    }
+}
+
+/* Qutar la flecha hacia abajo del accordion cuando estÃ© activo */
+#costosAccordion .btn-link[aria-expanded=true]::after {
+    display: none;
+}
+
+#costosAccordion .card,
+#costosAccordion .card-header a {
+    border: none;
+    border-radius: 0;
+}
+
+#costosAccordion .card {
+    border-bottom: 2px solid rgb(223, 228, 232);
+}
+
+#costosAccordion span {
+    font-family: 'VWHead-Bold';
+}
+
+#costosAccordion .card-body,
+#costosAccordion .card-body h3 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#legalCP01 b {
+    font-family: 'VWHead-Bold';
+}
+
+
+/*LONG DRIVE*/
+.interior-fin.long-drive-sec {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.long-drive-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+    .long-drive-content h2 {
+        text-align: left;
+    }
+
+    .long-drive-content p span {
+        font-family: 'VWHead-Bold';
+        display: block;
+    }
+
+    .long-drive-content img {
+        width: 100%;
+    }
+
+.long-drive-item2 {
+    width: 33%;
+}
+
+.long-drive-item {
+    width: 63%;
+}
+
+.precios p {
+    margin: 5px 0;
+    font-size: 45px;
+    font-family: 'VWText-Regular';
+}
+
+    .precios p:first-child {
+        text-decoration: line-through;
+    }
+
+    .precios p:last-child {
+        font-family: 'VWHead-Bold';
+    }
+
+.precios .div-precios {
+    width: 350px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.long-drive-item .info-car ul li {
+    position: relative;
+    padding-left: 30px;
+    text-align: left;
+}
+
+    .long-drive-item .info-car ul li::before {
+        content: "\e905";
+        font-family: 'icomoon' !important;
+        color: #001D50;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+
+.logo-long-drive {
+    position: relative;
+    height: 80px;
+}
+
+.icon-vw_logo-long-drive {
+    font-size: 169px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+/*RESPALDO VW*/
+.respaldo-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.respaldo-item {
+    width: 48%;
+}
+
+    .respaldo-item ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+        .respaldo-item ul li {
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+            position: relative;
+            padding-left: 30px;
+        }
+
+            .respaldo-item ul li.list-head {
+                border-bottom: 2px solid #001D50;
+                font-family: 'VWHead-Bold';
+                font-size: 18px;
+            }
+
+    .respaldo-item .list-check::before {
+        content: "\e907";
+        font-family: 'icomoon' !important;
+        color: #16cc7a;
+        position: absolute;
+        left: 0px;
+        z-index: -1;
+    }
+
+    .respaldo-item .list-none::before {
+        content: "\e917";
+        font-family: 'icomoon' !important;
+        color: #e52831;
+        position: absolute;
+        left: 0px;
+        z-index: -1;
+    }
+
+/*TABLA RESPALDO*/
+.manual-content {
+    padding-bottom: 40px;
+}
+
+.table-manual.desktop {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.head-manual th {
+    width: 20%;
+}
+
+.head-manual td {
+    width: 40%;
+    padding: 10px 0;
+    font-size: 13px;
+    color: #ccc;
+    font-family: 'VWText-Regular';
+}
+
+.autos-manual td {
+    font-size: 22px;
+    color: #001D50;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.btn-manuales td {
+    border-top: none;
+}
+
+.btn-manuales a {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid #001D50;
+    color: #001D50;
+    text-decoration: none;
+    font-family: 'VWText-Regular';
+}
+
+    .btn-manuales a:hover {
+        color: #0040C5;
+        border-bottom: 1px solid #0040C5;
+    }
+
+    .btn-manuales a i {
+        padding-right: 10px;
+    }
+
+.manual-movil {
+    display: none;
+}
+
+.item-mmovil .man.collapsed::after {
+    content: "\e901";
+    font-family: 'icomoon' !important;
+    color: #001D50;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    font-size: 25px;
+}
+
+.item-mmovil .man::after {
+    content: "\e904";
+    font-family: 'icomoon' !important;
+    color: #001D50;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    font-size: 25px;
+}
+
+.item-mmovil .man {
+    border-bottom: 2px solid #001D50;
+    font-size: 25px;
+    font-family: 'VWHead-Bold';
+    text-decoration: none;
+    color: #001D50;
+    display: block;
+    position: relative;
+    height: 45px;
+}
+
+.item-mmovil .t-movil {
+    border-top: 2px solid #001D50;
+}
+
+    .item-mmovil .t-movil:first-child {
+        border-top: none;
+    }
+
+/*COOKIES*/
+.cookie-policy-container {
+    background: #2E3539;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1061;
+    padding: 20px 0 0;
+    text-align: center;
+}
+
+    .cookie-policy-container .container {
+        max-width: 1400px;
+    }
+
+.content-cookie p {
+    color: #ccc;
+}
+
+.content-cookie .avisoCookies {
+    line-height: 26px;
+    padding-bottom: 4px;
+    color: #4bc7f4;
+    font-family: 'VWHead-Bold';
+}
+
+/*CREDITO*/
+.financiamiento-content {
+    padding: 50px 0;
+}
+
+.financiamiento-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.financiamiento-info {
+    padding-top: 25px;
+}
+
+.fin-img {
+    width: 55%;
+    position: relative;
+}
+
+.fin-info {
+    width: 35%;
+}
+
+    .fin-info h2 {
+        text-align: left;
+    }
+
+    .fin-info a {
+        color: #001D50;
+        text-decoration: none;
+        border-bottom: 1px solid #001D50;
+        font-family: 'VWHead-Bold';
+    }
+
+        .fin-info a:hover {
+            color: #0040C5;
+            border-bottom: 1px solid #0040C5;
+        }
+
+        .fin-info a i {
+            margin-left: 10px;
+        }
+
+    .fin-info ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+        .fin-info ul li::before {
+            content: "\e907";
+            font-family: 'icomoon' !important;
+            color: #001D50;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+        }
+
+        .fin-info ul li {
+            position: relative;
+            padding-left: 30px;
+            line-height: 2.5;
+        }
+
+.credito-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 65px auto;
+    align-items: center;
+    width: 85%;
+}
+
+    .credito-info span {
+        font-size: 20px;
+    }
+
+    .credito-info .signo-mas {
+        color: #4cc7f4;
+        font-size: 40px;
+        font-family: 'VWHead-Bold';
+    }
+
+.fin-img img {
+    width: 100%;
+}
+
+.fin-img picture.img-absolute {
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    width: 230px;
+}
+
+.fin-img picture.img-absolute2 {
+    position: absolute;
+    top: unset;
+    left: 65%;
+    width: 200px;
+    bottom: -10%;
+}
+
+.fin-info.pos3 img {
+    margin-top: 50px;
+}
+
+/*AFASA SECCIÃ“N*/
+.afasa-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+    .afasa-item img {
+        width: 100%;
+    }
+
+    .afasa-item h2 {
+        text-align: left;
+    }
+
+    .afasa-item .bloque1 {
+        width: 35%;
+    }
+
+    .afasa-item .bloque2 {
+        width: 55%;
+    }
+
+.afasa-plan-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.img-afasa {
+    width: 45%;
+}
+
+    .img-afasa img {
+        width: 100%;
+    }
+
+.info-afasa {
+    width: 45%;
+}
+
+    .info-afasa h2 {
+        text-align: left;
+    }
+
+/*SERVICE PLUS SECCIÃ“N*/
+.splus-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+    .splus-item img {
+        width: 100%;
+    }
+
+    .splus-item h2 {
+        text-align: left;
+    }
+
+    .splus-item .bloque1 {
+        width: 35%;
+    }
+
+    .splus-item .bloque2 {
+        width: 55%;
+    }
+
+.splus-plan-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+.img-splus {
+    width: 50%;
+}
+
+    .img-splus img {
+        width: 100%;
+    }
+
+.info-splus {
+    width: 35%;
+}
+
+    .info-splus h2 {
+        text-align: left;
+        margin-left: 9%;
+    }
+
+.splus-title {
+    height: 75px;
+    width: 100%;
+    border-left: 2px solid rgb(223, 228, 232);
+}
+
+.info-splus p {
+    color: #000;
+    font-size: 18px;
+    font-family: 'VWText-Regular';
+}
+
+    .info-splus p span {
+        font-family: 'VWHead-Bold';
+    }
+
+.splus-legales p {
+    text-align: center;
+    font-family: 'VWText-Regular';
+    font-size: 17px;
+    color: #000;
+}
+
+    .splus-legales p span {
+        font-family: 'VWHead-Bold';
+        color: #000;
+    }
+/*TERMINA SERVICE PLUS*/
+
+ul.list-check {
+    list-style: none;
+    padding-left: 0;
+}
+
+    ul.list-check li {
+        position: relative;
+        padding-left: 30px;
+        line-height: 2;
+    }
+
+        ul.list-check li::before {
+            content: "\e907";
+            font-family: 'icomoon' !important;
+            color: #001D50;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+        }
+
+/*datepicker styles*/
+
+.fecha .input-group .btn {
+    margin: 0 0 20px 0;
+    height: 40px;
+    border-top: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+.fecha {
+    width: calc(30% - 20px);
+}
+
+    .fecha .input-group .form-control {
+        width: calc(100% - 38px);
+    }
+
+    .fecha .input-group .btn {
+        color: #4cc7f4;
+    }
+
+    .fecha .input-group .form-control {
+        margin: 0 0 15px;
+    }
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-secondary.dropdown-toggle {
+    color: #4cc7f4;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+    .btn-outline-secondary:not(:disabled):not(.disabled).active:hover,
+    .btn-outline-secondary:not(:disabled):not(.disabled):active:hover,
+    .show > .btn-outline-secondary.dropdown-toggle:hover {
+        box-shadow: none;
+    }
+
+.gj-picker-bootstrap table tr td.selected.gj-cursor-pointer div {
+    background-color: #4cc7f4 !important;
+}
+
+.gj-picker-bootstrap table tr td.today div {
+    color: #4cc7f4 !important;
+}
+
+/*MODELOS*/
+.modelos-section {
+    padding-top: 90px;
+}
+
+    .modelos-section .title-interior {
+        padding: 0;
+        margin: 20px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+.content-modelos {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    /*padding-top: 100px;*/
+}
+
+/*.item-modelo{width: 24%; padding-top: 100px;}*/
+.item-modelo {
+    width: 25%;
+    padding: 100px 10px 0 10px;
+    position: relative;
+}
+
+    .item-modelo h4 {
+        margin: 0; /*color: #fff;*/
+    }
+
+        .item-modelo h4.backcolor, .item-modelo span.backcolor {
+            color: #000;
+        }
+
+    .item-modelo img {
+        width: 100%;
+    }
+
+    .item-modelo .img-modelo {
+        position: relative;
+    }
+    /*.item-modelo .back-color{
+	height: 160px;
+	position: absolute;
+	width: 100%;
+	margin: -70px 0 0; 
+	z-index: -1;
+	padding: 10px;*/
+    /*color: #fff;*/
+    /*}*/
+
+    .item-modelo .back-color {
+        height: 160px;
+        position: absolute;
+        width: 100%;
+        top: -70px !important;
+        margin: 0;
+        z-index: -1;
+        padding: 10px;
+        /*color: #fff;*/
+    }
+/*@media (max-width: 667px) and (min-width: 375px) {
+        .item-modelo .back-color {
+            height: 160px;
+            position: absolute;
+            width: 100%;
+            top: -70px !important;
+            margin: 0;
+            z-index: -1;
+            padding: 10px;*/
+/*color: #fff;*/
+/*}
+    }*/
+
+
+/*secciÃ³n precios comerciales*/
+
+.content-precios {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn-precios {
+    width: 30%;
+}
+
+.preciosM {
+    width: 65%;
+}
+
+.info-afasa p font {
+    width: 16px;
+    font-family: 'VWHead-Bold';
+}
+/*ESTILOS MENU AUTOS*/
+
+.btn-precios .card {
+    border: 0;
+}
+
+.content-infoPrecio {
+    display: none;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    /*z-index: 9999;*/
+    background: #fff;
+    width: 100%;
+    opacity: 1;
+}
+
+    .content-infoPrecio .container {
+        padding-bottom: 30px;
+    }
+
+.btn-precios .card {
+    padding: 0;
+    position: relative;
+    border: 0;
+}
+
+
+
+.item-opt.card-header {
+    border-radius: 0;
+    padding: 0;
+    border: 0;
+    background-color: #fff;
+}
+
+    .item-opt.card-header a {
+        border: 0;
+        height: 70px;
+        display: block;
+        padding: 23px 15px;
+        font-size: 16px;
+        border-bottom: 2px solid #ccc;
+        color: #000;
+        text-decoration: none;
+        font-family: 'VWHead-Bold';
+    }
+
+        .item-opt.card-header a:after {
+            content: "\e901";
+            font-family: 'icomoon' !important;
+            position: absolute;
+            font-size: 20px;
+            right: 20px;
+        }
+
+.item-opt ul, .item-opt p {
+    font-family: 'VWText-Regular';
+    font-size: 14px;
+}
+
+.slider-vw-home picture {
+    width: 100%;
+}
+
+.btn-info2 {
+    color: #001E50;
+    font-family: 'VWHead-Bold';
+    font-size: 16px;
+}
+
+    .btn-info2:hover {
+        color: #001E50;
+    }
+
+.precios-mantenimiento.owl-theme .owl-nav .owl-prev {
+    position: absolute;
+    left: 5px;
+    top: 40%;
+    background-color: transparent;
+    font-size: 25px;
+}
+
+.precios-mantenimiento.owl-theme .owl-nav .owl-next {
+    position: absolute;
+    right: 5px;
+    top: 40%;
+    background-color: transparent;
+    font-size: 25px;
+    margin-left: 2px;
+}
+
+    .precios-mantenimiento.owl-theme .owl-nav .owl-next:hover,
+    .precios-mantenimiento.owl-theme .owl-nav .owl-prev:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+    }
+
+.thumbs-precio {
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .thumbs-precio a img {
+        width: 100%;
+    }
+
+    .thumbs-precio a {
+        width: 16%;
+        margin: 0 3px;
+    }
+
+.legal-preciosvc {
+    margin: 20px 0;
+}
+
+    .legal-preciosvc p {
+        font-size: 14px;
+        line-height: 17px;
+        font-family: 'VWText-Regular';
+    }
+
+/*we conect secciÃ³n*/
+
+.banner-we-conect h2 {
+    color: #fff;
+    font-size: 32px;
+    font-family: 'VWHead-Bold';
+}
+
+.banners-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.item-banner-conect {
+    width: 30%;
+}
+
+    .item-banner-conect img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+.btn-descarga {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-banner-conect p {
+    color: #201F4F;
+    font-size: 20px;
+    font-family: 'VWText-Regular';
+}
+
+.img-weconect {
+    width: 100%;
+}
+
+.video-we-conect video {
+    width: 100%;
+}
+
+.info-logo-wc {
+    display: flex;
+    bottom: 30px;
+    position: absolute;
+    left: 3%;
+    align-items: center;
+    color: #fff;
+    z-index: 2;
+}
+
+    .info-logo-wc h1 {
+        margin-top: 0;
+        font-size: 30px;
+        text-align: left;
+        font-family: 'VWHead-Bold';
+        color: #fff;
+        margin-bottom: 0;
+        margin-left: 15px;
+    }
+
+.ban-wc {
+    background: rgba(0, 0, 0, 0) radial-gradient(circle at 0% 0%, rgb(0, 67, 122) 0%, rgb(0, 30, 80) 100%) repeat scroll 0% 0%;
+    height: 370px;
+    margin-bottom: 250px;
+}
+
+/*estrellas contacto*/
+
+.opinion-content {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.head-opinion {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+    .head-opinion span {
+        font-family: 'VWHead-Bold';
+        font-size: 50px;
+        display: block;
+    }
+
+    .head-opinion img {
+        max-width: 300px;
+    }
+
+
+.item-opinion {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto 20px;
+    justify-content: center;
+}
+
+    .item-opinion img {
+        width: 120px;
+    }
+
+    .item-opinion font,
+    .item-opinion span {
+        font-family: 'VWHead-Bold';
+    }
+
+.barras-opinion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-barras {
+    width: 48%;
+}
+
+.progress .progress-bar {
+    background-color: rgb(255, 209, 0);
+}
+
+.itemB {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .itemB .progress {
+        width: 75%;
+    }
+
+    .itemB a {
+        color: rgb(0, 30, 80);
+        font-size: 17px;
+        font-family: 'VWHead-Bold';
+        width: 110px;
+        text-decoration: underline;
+        /*border-bottom: 1px solid rgb(0, 30, 80);*/
+    }
+
+        .itemB a:last-child {
+            text-align: right;
+            width: 70px;
+        }
+
+.item-opinion font,
+.item-opinion span {
+    font-family: 'VWHead-Bold';
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.barras-opinion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-barras {
+    width: 48%;
+}
+
+.progress .progress-bar {
+    background-color: rgb(255, 209, 0);
+}
+
+.itemB {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .itemB .progress {
+        width: 75%;
+    }
+
+    .itemB a {
+        color: rgb(0, 30, 80);
+        font-size: 17px;
+        font-family: 'VWHead-Bold';
+        width: 110px;
+        text-decoration: underline;
+        /*border-bottom: 1px solid rgb(0, 30, 80);*/
+    }
+
+        .itemB a:last-child {
+            text-align: right;
+            width: 70px;
+        }
+
+.headOpt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.estrellasComent img {
+    width: 24px;
+}
+
+.headOpt span {
+    color: rgb(0, 30, 80);
+    font-size: 18px;
+    font-family: 'VWHead-Bold';
+}
+
+.txtOpt {
+    color: rgb(0, 30, 80);
+    font-size: 18px;
+    font-family: 'VWHead-Bold';
+    margin-top: 25px;
+}
+
+.opinion-item {
+    border-top: 1px solid gray;
+    padding-top: 25px;
+}
+
+    .opinion-item .badge {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+.starsOpt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .starsOpt img {
+        width: 30px;
+        height: 30px;
+    }
+
+.starsServcio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .starsServcio img {
+        width: 25px;
+        height: 25px;
+    }
+
+.starsdesabilita {
+    color: #8080807a !important;
+}
+
+.disclaimerOpinion {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+    .disclaimerOpinion img {
+        width: 150px;
+        margin-left: 10px;
+    }
+
+.headComentarios {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+    .headComentarios a {
+        color: #000;
+        font-family: 'VWHead-Bold';
+        font-size: 18px;
+    }
+
+/*Familia suvs*/
+
+.title-interior .logo-suvs {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.famSuvsItem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+    .famSuvsItem .ItemVideo {
+        width: 40%;
+        position: relative;
+    }
+
+        .famSuvsItem .ItemVideo i {
+            color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            font-size: 50px;
+            transform: translate(-50%, -50%);
+        }
+
+
+        .famSuvsItem .ItemVideo a:hover i {
+            color: #4cc7f4;
+        }
+
+    .famSuvsItem .ItemSuvs {
+        width: 40%;
+    }
+
+.ItemSuvs img {
+    width: 100%;
+}
+
+.ItemSuvs p {
+    font-size: 17px;
+    font-family: 'VWText-Regular';
+    text-align: justify;
+}
+
+.ItemSuvs h3 {
+    font-size: 47px;
+}
+
+.ItemVideo a img {
+    width: 100%;
+}
+
+.modal.modalSuvs .modal-dialog {
+    max-width: 550px;
+    width: 550px;
+    background: transparent;
+}
+
+    .modal.modalSuvs .modal-dialog .modal-content {
+        background-color: transparent;
+        border: none;
+    }
+
+    .modal.modalSuvs .modal-dialog .modal-header {
+        border-bottom: none;
+        padding: 0;
+    }
+
+.modal.modalSuvs .modal-header .close {
+    font-size: 2.5rem;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 0 black;
+    opacity: 1;
+    background: transparent;
+    outline: none;
+}
+
+    .modal.modalSuvs .modal-header .close:hover {
+        color: #4FCAF7;
+    }
+
+.videoSuvs video,
+.videoSuvs {
+    width: 100%;
+}
+
+
+/*seccion respaldo nueva*/
+
+.bannerSecN {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgSecN {
+    width: 50%;
+}
+
+    .imgSecN img {
+        width: 100%;
+    }
+
+.infoSecN {
+    width: 50%;
+    padding: 50px;
+}
+
+.info-car span {
+    margin-bottom: 25px;
+    font-family: 'VWHead-Bold';
+    display: block;
+    font-size: 16px;
+}
+
+.info-car ul li {
+    font-size: 16px;
+    position: relative;
+}
+
+    .info-car ul li::before {
+        content: " ";
+        display: block;
+        height: 2px;
+        width: 1.125em;
+        background-color: rgb(0, 0, 0);
+        top: 12px;
+    }
+
+}
+
+.info-car span font {
+    font-family: 'VWHeadWeb-Light1';
+}
+
+.manualesRV {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.itemMRV {
+    width: 45%;
+}
+
+    .itemMRV span {
+        font-family: 'VWHead-Bold';
+        font-size: 16px;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .itemMRV p {
+        font-size: 16px;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .itemMRV a {
+        font-size: 16px;
+        color: rgb(0, 30, 80);
+        border-bottom: 1px solid rgb(0, 30, 80);
+        display: inline-flex;
+        align-items: center;
+        font-family: 'VWHead-Bold';
+    }
+
+        .itemMRV a i {
+            margin-right: 10px;
+        }
+
+.bannerBlue {
+    background: rgba(0, 0, 0, 0) radial-gradient(circle at 0% 0%, rgb(0, 67, 122) 0%, rgb(0, 30, 80) 100%) repeat scroll 0% 0%;
+    transform: translate3d(0px, 0px, 0px);
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+    .bannerBlue h2 {
+        color: #fff;
+        padding: 50px 20px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .bannerBlue .btn-white2 {
+        width: 300px;
+    }
+
+.legal-sections span {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-family: 'VWHead-Bold';
+}
+
+.telRespaldo a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btnSec {
+    font-size: 16px;
+    color: rgb(0, 30, 80);
+    border-bottom: 1px solid rgb(0, 30, 80);
+    display: inline-flex;
+    align-items: center;
+    font-family: 'VWHead-Bold';
+}
+
+.garantia-item.secondOpt {
+    align-items: baseline;
+}
+
+.info-car font {
+    font-family: 'VWHead-Bold';
+}
+
+.info-car p {
+    font-size: 16px;
+}
+
+.legalTxt {
+    color: #6A767D;
+    font-size: 16px;
+    display: block;
+    margin: 30px auto;
+}
+
+.info-car h2 font {
+    font-family: 'VWHeadWeb-Light1';
+}
+
+.videoVW {
+    width: 100%;
+}
+
+    .videoVW video {
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+.videoVW2 {
+    width: 100%;
+}
+
+    .videoVW2 video {
+        width: 100%;
+        margin: 30px auto;
+        display: block;
+    }
+
+.info-interior-auto2 {
+    background: rgba(0, 0, 0, 0) radial-gradient(circle at 0% 0%, rgb(0, 67, 122) 0%, rgb(0, 30, 80) 100%) repeat scroll 0% 0%;
+    transform: translate3d(0px, 0px, 0px);
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+    margin-top: -1px;
+    position: absolute;
+    bottom: 0;
+}
+
+    .info-interior-auto2 h2 {
+        color: #fff;
+        margin: 0;
+        text-align: left;
+    }
+
+.linklegal sup {
+    border-radius: 100px;
+    border: 0px px;
+    cursor: pointer;
+    display: inline;
+    font-weight: initial;
+    line-height: 1;
+    margin: 0px;
+    white-space: nowrap;
+    min-width: 1.25em;
+    padding: 0.125em 0.35em;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    background: rgb(223, 228, 232);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+}
+
+.linklegal:hover sup {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 64, 197);
+    outline: 0px;
+}
+
+.linklegal {
+    border: none !important;
+    margin-left: 0 !important;
+}
+
+.content-FormVilla {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/img/villa-navidenia/back_formulario_desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formVilla .txtTerminos h3 {
+    color: #001D50;
+    font-size: 12px;
+    font-family: 'VWHead-Bold';
+    margin: 0;
+    text-align: left;
+}
+
+.formVilla .txtTerminos p {
+    font-size: 12px;
+    font-family: 'VWText-Regular';
+    text-align: justify;
+    line-height: 15px;
+}
+
+.formVilla .avisoPriv {
+    font-size: 12px;
+}
+
+.form-group.avisoPrivacidad {
+    margin: 30px 0 0px 0 !important;
+    text-align: center;
+}
+
+.itemVillaNav .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    .itemVillaNav .flex .flexbox {
+        width: 50%;
+    }
+/*Aviso Privacidad Villa*/
+#divPrivacidadH h2, #divPrivacidadH p, #divPrivacidadH ul li {
+    font-size: 13px;
+    color: #fff;
+    text-align: justify;
+}
+
+/*loading*/
+#loadingEnviar img {
+    width: 400px;
+    position: relative;
+    top: 20%;
+    left: 35%;
+}
+
+
+.formVilla {
+    width: 420px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 25px 50px;
+    z-index: 1;
+}
+
+.formInputs .form-group {
+    margin: 0 0 20px 0;
+    width: 100%;
+}
+
+.itemBlur {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(250, 250, 250, 0.15);
+    backdrop-filter: blur(5px);
+}
+
+.formVilla p {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+    .formVilla p span {
+        font-family: 'VWHead-Bold';
+    }
+
+.formVilla .focused .form-label {
+    font-size: 12px;
+    padding-left: 0;
+}
+
+.formVilla .form-label {
+    padding-left: 10px;
+}
+
+.btnVilla {
+    margin-top: 30px;
+}
+
+    .btnVilla .btn {
+        width: 100%;
+        cursor: pointer;
+    }
+
+        .btnVilla .btn.btn-white:hover {
+            color: #001D50 !important;
+        }
+
+.formVilla .form-input {
+    border-bottom: 2px solid #001D50;
+}
+
+/*villa navideÃ±a*/
+
+.divVillaNav {
+    background-image: url(/assets/img/villa-navidenia/back_villa_nav_desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.itemVillaNav2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+    .itemVillaNav2 .size1 {
+        width: 25%;
+    }
+
+
+
+    .itemVillaNav2 img,
+    .itemVillaNav2 picture {
+        width: 100%;
+    }
+
+.itemVillaNav {
+    width: 50%;
+}
+
+.itemVillaNav3 {
+    width: 50%;
+    padding-bottom: 13.5%;
+    margin-top: -180px;
+}
+
+    .itemVillaNav img,
+    .itemVillaNav3 img {
+        width: 100%;
+    }
+
+.animationItem {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    opacity: 0.4;
+    transform: translate(-50%, 0%);
+}
+
+body {
+    position: relative;
+}
+
+.txtVilla {
+    width: auto;
+    position: absolute;
+    color: #fff;
+    top: 12.5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: left;
+}
+
+    .txtVilla h2 {
+        text-align: left;
+        color: #fff;
+        margin: 0;
+        font-size: 55px;
+    }
+
+    .txtVilla p {
+        font-size: 23px;
+        margin: 0;
+        font-weight: 700;
+    }
+
+.contadorVilla {
+    position: sticky;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    top: 100px;
+    transform: unset;
+    margin-top: 90px;
+    text-align: center;
+    height: 90px;
+    padding: 0px 15px;
+    border-radius: 10px;
+    z-index: 2;
+    /*text-align: center;
+    width: auto;
+    position: fixed;
+    top: 100px;
+    font-weight: 700;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background: linear-gradient(0deg, rgba(255,255,255,0.9668242296918768) 0%, rgba(1,14,92,1) 47%);
+    background: linear-gradient(0deg, rgba(255,255,255,0.9668242296918768) 7%, rgba(1,14,92,1) 55%);
+    padding: 0px 15px;
+    border-radius: 10px;
+    z-index: 2;*/
+}
+
+    .contadorVilla .title {
+        width: 266px;
+        margin: 0 auto;
+        background: #10224a;
+        font-size: 21px;
+        color: #fff;
+        font-family: 'VWHead-Bold';
+        border-radius: 0 0 10px 10px;
+        top: -10px;
+        position: relative;
+    }
+
+    .contadorVilla span {
+        width: 266px;
+        height: 90px;
+        background-image: url(/assets/img/villa-navidenia/contador.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: top;
+        padding-left: 10px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 60px;
+        font-family: 'VWHead-Bold';
+        letter-spacing: 10px;
+        border-radius: 10px 0 0 0;
+        /*color: #fff;
+    font-size: 60px;
+    font-family: 'VWHead-Bold';
+    letter-spacing: 10px;*/
+    }
+
+#flake {
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    font-size: 25px;
+    top: -50px;
+    /*padding-left: 35px !important;*/
+}
+
+
+
+.villasuvw, .villasuvw header {
+    overflow-x: hidden !important;
+}
+
+input:-internal-autofill-selected {
+    background-color: transparent !important;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0), inset 0 0 0 100px rgba(255, 255, 255,1);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    background-color: transparent !important;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0), inset 0 0 0 100px rgba(255, 255, 255,1);
+}
+
+.mensajeGraciass {
+    position: fixed;
+    background-color: #00145F;
+    width: 470px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 200px;
+    z-index: 2;
+    padding: 30px 15px;
+    border: 1px solid #fff;
+}
+
+.animationtyp {
+    position: absolute;
+    bottom: -30px;
+    width: 470px;
+    height: 175px;
+    left: 0;
+}
+
+.mensajeGraciass p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contadorVilla {
+    /*background-image: url(/assets/img/villa-navidenia/contador.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    padding-left: 24px;
+    width: 266px;
+    height: 90px;*/
+}
+
+.santaDiv {
+    position: absolute;
+    opacity: 0.4;
+    width: 100%;
+    text-align: center;
+    top: 0;
+}
+
+    .santaDiv img {
+        width: 100%;
+    }
+
+.secVilla {
+    position: relative;
+}
+
+
+.nieveAnimation {
+    background-image: url(/assets/img/villa-navidenia/backred.gif);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    background-repeat: repeat;
+    opacity: 0.3;
+}
+/*cursos navidad*/
+.villasuvw {
+    cursor: url(/assets/img/cursor.png), auto;
+}
+
+/*cotizacion polo*/
+
+.formCheck {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .formCheck span {
+        margin-right: 20px;
+        margin-left: 0 !important;
+    }
+
+    .formCheck .labelCheck {
+        width: 100%;
+        font-family: 'VWText-Regular';
+    }
+
+.btn-tp .btn-white:hover {
+    color: #001D50;
+    text-decoration: none;
+}
+
+.cotPolo .form-group {
+    width: 31% !important;
+    margin: 0 1.15% 25px;
+}
+
+.formCheck .custom-checkbox {
+    margin: 0;
+    padding-right: 15px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.formCheck.midSize {
+    width: 50% !important;
+}
+
+
+
+.formulario a:not([href]):not([tabindex]):focus, .formulario a:not([href]):not([tabindex]):hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.txtBold {
+    font-family: 'VWHead-Bold' !important;
+}
+
+.avisoPriv:hover {
+    color: #001D50 !important;
+}
+
+@media (max-width: 1600px) {
+    .txtVilla h2 {
+        font-size: 45px;
+    }
+
+    .txtVilla p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1400px) {
+    section .container {
+        max-width: 1350px;
+    }
+
+    /*MENU*/
+    .info-vw {
+        padding: 0 50px;
+    }
+
+        .info-vw i.icon-vw_icon-menu {
+            padding-left: 50px;
+        }
+
+    /*VILLA NAVIDEÃ‘A*/
+
+    .contadorVilla {
+        top: 75px;
+    }
+
+    .txtVilla {
+        top: 14.5%;
+    }
+
+        .txtVilla p {
+            line-height: 25px;
+        }
+}
+
+@media (max-width: 1300px) {
+
+    .info-vw .info-dist span {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    section .container {
+        max-width: 1150px;
+    }
+
+    /*SUBMENU*/
+    .option-menu {
+        padding-left: 30px;
+    }
+
+        .option-menu ul li a {
+            font-size: 25px;
+        }
+
+    /*BANNERS HOME*/
+    .info-card h3 {
+        font-size: 21px;
+    }
+
+    .content-home-banner .item-banner {
+        width: 49%;
+    }
+
+    /*QUIENES SOMOS*/
+    .info-txt ul li {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    .info-txt,
+    .img-qs {
+        width: 50%;
+    }
+
+    .title-interior.qs {
+        width: 85%;
+    }
+
+    /*TABLA RESPALDO*/
+    .head-manual img {
+        width: 85%;
+    }
+
+    /*CREDITO*/
+    .fin-img picture.img-absolute2 {
+        left: 55%;
+    }
+
+    .promos-home-info .promo-fin a {
+        width: 200px;
+    }
+
+    /*SECCIÃ“N MODELOS*/
+    .item-modelo .back-color {
+        height: 140px;
+    }
+
+    /*PRECIOS VEHICULOS COMERCIALES*/
+    .btn-precios {
+        width: 38%;
+    }
+
+    .preciosM {
+        width: 60%;
+    }
+
+    /*familia suvs*/
+    .famSuvsItem .ItemVideo {
+        width: 45%;
+    }
+
+    .famSuvsItem .ItemSuvs {
+        width: 45%;
+    }
+
+    .Centralogo2 img {
+        width: 65px !important;
+    }
+
+    .item-modelo {
+        width: 33%;
+    }
+
+    .item-footer {
+        width: 23%;
+        margin-bottom: 15px;
+    }
+
+        .item-footer h3 {
+            margin: 20px 0;
+        }
+
+        .item-footer:nth-child(4n) {
+            border-right: none;
+        }
+
+    /*VILLA NAVIDEÃ‘A*/
+    .contadorVilla .title {
+        width: 200px;
+    }
+
+    .contadorVilla span {
+        font-size: 39px;
+        letter-spacing: 11px;
+        top: 70px;
+        width: 200px;
+        height: 70px;
+        background-size: contain;
+        background-position-y: -4px;
+    }
+
+    .itemVillaNav3 {
+        margin-top: -140px;
+    }
+
+    .contadorVilla {
+        top: 90px;
+        height: 70px;
+        margin-top: 70px;
+    }
+
+    .txtVilla p {
+        font-size: 19px;
+    }
+
+    .txtVilla h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .info-home-slide p {
+        font-size: 60px;
+        color: #fff;
+        line-height: 65px;
+    }
+
+    section .container {
+        max-width: 850px;
+    }
+
+    .title-interior {
+        width: 85%;
+    }
+
+    /*MENU*/
+    .btn-menu-interior {
+        padding: 0 0 0 25px;
+    }
+
+    .menu-interior ul {
+        padding-right: 50px;
+    }
+
+    /*HEADER*/
+    .info-vw i {
+        padding-left: 35px;
+    }
+
+    .logo-vw .line-left {
+        flex-basis: unset;
+    }
+
+    .info-vw {
+        padding: 0 50px;
+    }
+
+        .info-vw .info-dist {
+            padding-left: 25px;
+        }
+
+
+    /*SUBMENU*/
+    .option-menu ul li a {
+        font-size: 20px;
+    }
+
+    .drawer-content .option-menu {
+        padding-left: 60px;
+    }
+
+    .drawer2 {
+        width: 86%;
+        right: -86%;
+    }
+
+    /*FORM HOME*/
+    .form-home .form-control,
+    .form-home .form-group {
+        width: calc(33.3% - 20px);
+    }
+
+    .form-home .slc {
+        width: calc(33.3% - 20px);
+    }
+
+    /*FOOTER*/
+    .item-footer {
+        width: 25%;
+    }
+
+    /*.logo-xs span {
+        display: block;
+    }*/
+
+    /*BANNER HOME*/
+    .info-card h3 {
+        font-size: 18px;
+    }
+
+    .item-banner.items .card-banner .info-card,
+    .item-banner .card-banner .info-card {
+        padding: 0 15px;
+    }
+
+    .item-banner.items .card-banner {
+        margin-bottom: 18px;
+    }
+
+    /*SLIDER MODELOS HOME*/
+    .slider-modelos {
+        width: 100%;
+    }
+
+    .slider-modelos-home .back-color {
+        margin: -70px 0 0;
+        width: 100%;
+    }
+
+    .owl-carousel.slider-modelos-home .owl-nav .owl-next {
+        display: none;
+    }
+
+    /*PROMOS HOME*/
+    .promos-home-info {
+        width: 100%;
+        order: 1;
+    }
+
+    .promos-home-img {
+        width: 100%;
+    }
+
+    /*CITA SERVICIO*/
+    .formulario .form-home .checkbox-item {
+        justify-content: flex-start;
+        width: auto;
+    }
+
+    /*QUIENES SOMOS*/
+    .info-txt ul li {
+        line-height: 2;
+        font-size: 16px;
+    }
+
+    .img-qs {
+        width: 100%;
+        order: -1;
+    }
+
+    .info-txt {
+        width: 100%;
+    }
+
+    .container.section-qs {
+        margin-bottom: 40px;
+    }
+
+        .container.section-qs .info-txt {
+            width: 50%;
+            padding: 0;
+        }
+
+        .container.section-qs .img-qs {
+            width: 50%;
+            order: 0;
+        }
+
+    .img-qs .img-abs {
+        right: 60px;
+        width: 170px;
+        bottom: 1px;
+    }
+
+    /*BOLSA DE TRABAJO*/
+    .btn-vacante {
+        margin-left: 100px;
+    }
+
+    .info-vacante {
+        flex-direction: column;
+    }
+
+    /*CONTACTO*/
+    .contacto-content {
+        flex-wrap: wrap;
+    }
+
+    .contacto-mapa {
+        width: 100%;
+        height: 200px;
+    }
+
+    .datos-contacto {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+    }
+
+    .contacto-item {
+        width: 47%;
+    }
+
+    .directorio-item {
+        width: 50%;
+    }
+
+    .form-home .bloque1 {
+        width: 100%;
+    }
+
+    .contacto .bloque2 {
+        width: 100%;
+    }
+
+    .contacto .form-home .slc {
+        width: calc(50% - 20px);
+    }
+
+    .contacto .form-home .form-group {
+        width: calc(50% - 20px);
+    }
+
+    /*MANTENIMIENTO*/
+    .iconos-content {
+        flex-wrap: wrap;
+    }
+
+    .iconos-item {
+        width: 33.3%;
+    }
+
+    .precios-movil {
+        display: block;
+    }
+
+    .mant-item {
+        display: none;
+    }
+
+    /*CARROCERÃA*/
+    .carroceria-item .img-car {
+        width: 100%;
+    }
+
+    .carroceria-item .info-car {
+        width: 100%;
+    }
+
+    .car2 picture img {
+        width: 100%;
+    }
+
+    /*GARANTIA*/
+    .interior-fin.garantia-sec {
+        width: 100%;
+    }
+
+    .garantia-item .img-car {
+        width: 100%;
+    }
+
+    .garantia-item .info-car {
+        width: 100%;
+        order: 2;
+        margin-top: 25px;
+    }
+
+    /*LONG DRIVE*/
+    .long-drive-item2 {
+        width: 100%;
+    }
+
+    .long-drive-item {
+        width: 100%;
+    }
+
+    .interior-fin.long-drive-sec {
+        width: 100%;
+    }
+
+    /*RESPALDO*/
+    .manual-item {
+        display: none;
+    }
+
+    .manual-movil {
+        display: block;
+    }
+
+    /*CREDIT*/
+    .financiamiento-item {
+        flex-wrap: wrap;
+    }
+
+    .fin-img {
+        width: 100%;
+    }
+
+        .fin-img img {
+            width: 100%;
+            padding-left: 10%;
+        }
+
+        .fin-img picture.img-absolute {
+            position: absolute;
+            top: 25%;
+            left: 0;
+            width: 250px;
+        }
+
+            .fin-img picture.img-absolute img {
+                width: 250px;
+                padding: 0;
+            }
+
+    .fin-info {
+        width: 100%;
+    }
+
+        .fin-info.pos2 {
+            order: 2;
+            margin-top: 40px;
+        }
+
+    .fin-img picture.img-absolute2 {
+        left: 65%;
+    }
+
+    .fin-img.pos2 img {
+        padding-left: 0;
+    }
+
+    .fin-info.pos3 {
+        order: 2;
+    }
+
+        .fin-info.pos3 img {
+            width: 100%;
+        }
+
+    .fin-img.pos3 img {
+        padding-left: 0;
+    }
+
+    /*AFASA*/
+    .img-afasa {
+        width: 100%;
+    }
+
+    .info-afasa {
+        width: 100%;
+        order: 2;
+    }
+
+    .afasa-item .bloque1 {
+        width: 40%;
+    }
+    /*SERVICE PLUS*/
+    .img-splus {
+        width: 100%;
+    }
+
+    .info-splus {
+        width: 100%;
+        order: 2;
+    }
+
+    .splus-item .bloque1 {
+        width: 40%;
+    }
+
+    .splus-title-mob {
+        height: 75px;
+        width: 100%;
+        border-left: 2px solid rgb(223, 228, 232);
+        display: block !important;
+    }
+
+        .splus-title-mob h2 {
+            font-size: 40px !important;
+        }
+
+    .splus-title {
+        display: none;
+    }
+    /*SECCIÃ“N MODELOS*/
+    .item-modelo {
+        width: 32%;
+    }
+
+    /*PRECIOS VEHICULOS COMERCIALES*/
+    .btn-precios {
+        width: 100%;
+    }
+
+    .preciosM {
+        width: 100%;
+    }
+
+    /*WE CONNECT GO*/
+    .info-logo-wc {
+        left: unset;
+        right: 3%;
+    }
+
+    .item-banner-conect {
+        width: 32%;
+    }
+
+    .ban-wc {
+        height: 320px;
+    }
+
+    /*estrellas contacto*/
+    .opinion-content {
+        width: 70%;
+    }
+
+    .item-modelo .btn-modelos-home .btn {
+        font-size: 14px;
+    }
+
+    .item-modelo {
+        width: 50%;
+    }
+
+    .item-footer:nth-child(4n) {
+        border-right: none;
+    }
+
+    .videoVW video {
+        width: 100%;
+    }
+
+    .info-interior-auto2 {
+        width: 100%;
+    }
+
+    /*VILLA NAVIDEÃ‘A*/
+    .divVillaNav {
+        background-image: url(/assets/img/villa-navidenia/back_ipad.jpg);
+    }
+
+    .txtVilla {
+        top: 17.5%;
+    }
+
+    .contadorVilla {
+        top: 100px;
+        height: 66px;
+        background-position-y: -6px;
+        padding-left: 26px;
+        margin-top: 66px;
+    }
+
+    .itemVillaNav3 {
+        margin-top: -132px;
+        padding-bottom: 20%;
+    }
+
+    .contadorVilla span {
+        font-size: 35px;
+        letter-spacing: 12px;
+        background-position-y: -1px;
+        height: 66px;
+        padding-top: 5px;
+    }
+
+    .txtVilla h2 {
+        font-size: 32px;
+    }
+
+    .txtVilla p {
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .contadorVilla {
+        top: 90px;
+    }
+
+    .txtVilla {
+        top: 19%;
+    }
+
+    .cotPolo .form-group {
+        width: 47% !important;
+        margin: 0 1.5% 25px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    /*villa naviddeÃ±a*/
+    .contadorVilla {
+        top: 100px;
+    }
+
+        .contadorVilla span {
+            font-size: 40px;
+        }
+
+    .txtVilla {
+        width: 400px;
+        /*top: 10%;*/
+        top: 12%;
+    }
+
+        .txtVilla h2 {
+            font-size: 35px;
+            text-align: center;
+        }
+
+        .txtVilla p {
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+    .WAMobil {
+        display: block
+    }
+
+    section .container {
+        max-width: 700px;
+    }
+
+    /*HEADER*/
+    .logo-vw {
+        transform: translateY( calc(16px + 28px + 12px + 0px - 24px + 1px) );
+    }
+
+        .logo-vw .img-logo-vw {
+            height: 35px;
+            width: 35px;
+        }
+
+            .logo-vw .img-logo-vw i {
+                font-size: 35px;
+            }
+
+    .header-vw {
+        height: 80px;
+        padding-bottom: 0;
+        padding-top: 15px;
+    }
+
+    /*SLIDER HOME VW*/
+    .video-vw {
+        width: 100%;
+    }
+
+    .img-vw {
+        width: 100%;
+        order: 2;
+    }
+
+    /*SUBMENU*/
+    .close-menu {
+        left: -15px;
+    }
+
+    /*FORM HOME*/
+    .form-home .form-control,
+    .form-home .form-group {
+        width: calc(50% - 20px);
+    }
+
+    .form-home .slc {
+        width: calc(50% - 20px);
+    }
+
+    .checkbox-item {
+        flex-flow: column;
+        text-align: center;
+    }
+
+    .custom-checkbox {
+        margin: 0 15px 15px;
+    }
+
+    /*FOOTER*/
+    .item-footer {
+        width: 33.3%;
+    }
+
+    .logo-xs {
+        width: 100%;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .copyrigth {
+        width: 100%;
+    }
+
+    .footer-info {
+        flex-wrap: wrap;
+    }
+
+    /*BANNER HOME*/
+    .item-banner.items .card-banner .info-card {
+        width: 100%;
+        border-top: 1px solid #ccc;
+    }
+
+    .item-banner.items .card-banner .img-card {
+        display: none;
+    }
+
+    .content-home-banner .item-banner {
+        width: 48%;
+    }
+
+    .sub-banner-p {
+        margin-top: -25px !important;
+    }
+    /*PROMOS HOME*/
+    .promos-home-info article {
+        width: 60%;
+    }
+
+    /*CRM*/
+    .crm {
+        top: calc(85% - 125px);
+        width: 50px;
+    }
+
+        .crm a {
+            width: 50px;
+            height: 50px;
+        }
+
+            .crm a article {
+                width: 50px;
+                height: 50px;
+            }
+
+                .crm a article i {
+                    margin-right: 5px;
+                    margin-left: 5px;
+                }
+
+            .crm a:hover article {
+                width: 150px;
+                height: 50px;
+            }
+
+    /*QUIENES SOMOS*/
+    .container.section-qs {
+        margin-bottom: 0px;
+    }
+
+        .container.section-qs .info-txt {
+            width: 100%;
+            padding: 25px;
+        }
+
+        .container.section-qs .img-qs {
+            width: 100%;
+            order: -1;
+            position: relative;
+            margin-bottom: 120px;
+        }
+
+    .img-qs .img-abs {
+        right: 50px;
+        width: 200px;
+        bottom: -120px;
+    }
+
+    /*BOLSA DE TRABAJO*/
+    .vacante-item {
+        width: 90%;
+    }
+
+    .title-interior.bt {
+        padding-left: 30px;
+    }
+
+    /*CONTACTO*/
+    .directorio-item {
+        margin-bottom: 25px;
+    }
+
+    .formulario.contacto {
+        padding-bottom: 25px;
+    }
+
+    .title-interior p {
+        margin-left: 0;
+    }
+
+    .title-interior {
+        width: 100%;
+        padding-left: 0;
+    }
+
+        /*RESPALDO VW*/
+        .title-interior a {
+            margin-left: 0;
+        }
+
+    .respaldo-item {
+        width: 100%;
+    }
+
+    /*CREDIT*/
+    .credito-info {
+        width: 100%;
+    }
+
+    .fin-img picture.img-absolute img {
+        width: 180px;
+    }
+
+    .afasa-item .bloque1, .afasa-item .bloque2 {
+        width: 100%;
+    }
+
+    /*LEASING*/
+    .item-requisito {
+        width: 100%;
+    }
+
+    /*DATEPICKER*/
+    .fecha {
+        width: calc(50% - 20px);
+    }
+
+    /*SECCIÃ“N MODELOS*/
+
+
+    .item-modelo .back-color {
+        height: 150px;
+    }
+
+
+    /*we conenct go*/
+    .item-banner-conect {
+        width: 100%;
+    }
+
+    .ban-wc {
+        height: auto;
+        margin-bottom: 0;
+    }
+
+
+    .item-banner-conect {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+        .item-banner-conect p {
+            color: #fff;
+        }
+
+        .item-banner-conect a {
+            color: #fff;
+        }
+
+            .item-banner-conect a:hover {
+                color: #fff;
+            }
+
+    /*familia suvs*/
+    .famSuvsItem .ItemVideo {
+        width: 100%;
+    }
+
+    .famSuvsItem .ItemSuvs {
+        width: 100%;
+        order: 2;
+    }
+
+    .splus-legales p {
+        font-size: 15px;
+    }
+
+    .item-footer:nth-child(3n) {
+        border-right: none;
+    }
+
+    .item-footer:nth-child(4n) {
+        border-right: none;
+    }
+
+    /*garantÃ­a*/
+    .imgSecN {
+        width: 100%;
+    }
+
+    .bannerSecN {
+        position: relative;
+    }
+
+    .infoSecN {
+        width: 100%;
+        position: absolute;
+        bottom: -85px;
+    }
+
+        .infoSecN h2 {
+            color: #fff;
+            padding: 25% 0;
+        }
+
+    .bannerBlue .btn-white2 {
+        margin-top: 0 !important;
+    }
+
+    .telRespaldo {
+        margin-left: 0 !important;
+    }
+
+    .info-interior-auto2 {
+        padding: 100px 30px;
+    }
+
+        .info-interior-auto2 h2 {
+            text-align: center;
+        }
+
+    /*villa navideÃ±a*/
+    .content-FormVilla {
+        height: 111vh;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .slider-desk {
+        display: none !important
+    }
+
+    .slider-tab {
+        display: block !important
+    }
+
+    .slider-mob {
+        display: none !important
+    }
+
+    /*estrellas contacto*/
+    opinion-content {
+        width: 100%;
+    }
+
+    .item-barras {
+        width: 90%;
+        margin: 0 auto 25px;
+    }
+
+    /*villa navideÃ±a*/
+    .divVillaNav {
+        background-image: url(/assets/img/villa-navidenia/back_villa_nav_mobile.jpg);
+    }
+
+    .itemVillaNav .flex .flexbox {
+        width: 100%;
+    }
+
+    .itemVillaNav {
+        width: 100%;
+    }
+
+    .animationItem {
+        top: -15%;
+        width: 100%;
+    }
+
+    .contadorVilla {
+        height: 73px;
+        margin-top: 73px;
+    }
+
+        .contadorVilla .title {
+            width: 200px;
+        }
+
+        .contadorVilla span {
+            width: 200px;
+            height: 73px;
+            font-size: 39px;
+            letter-spacing: 11px;
+        }
+
+    .itemVillaNav3 {
+        margin-top: -146px;
+        padding-bottom: 53%;
+    }
+}
+
+
+@media (max-width: 575px) {
+    #loadingEnviar img {
+        left: 13%;
+    }
+
+    .content-FormVilla {
+        background-image: url(/assets/img/villa-navidenia/back_formulario_mobile.png);
+    }
+
+    .icon-whatsapp-mov {
+        display: block;
+    }
+
+    .info-home-slide p {
+        font-size: 27px;
+        color: #fff;
+        line-height: 28px;
+    }
+
+    .info-home-slide {
+        top: 20%;
+    }
+
+        .info-home-slide .btn {
+            width: 82px;
+            margin: 16px 0px;
+            font-size: 11px;
+        }
+
+    .sub-banner {
+        font-size: 20px;
+    }
+
+    .sub-banner-p {
+        margin-top: -25px !important;
+    }
+
+    section .container {
+        max-width: 520px;
+    }
+
+    .title-interior.txt-only {
+        width: 100%;
+        padding-left: 0;
+    }
+
+        .title-interior.txt-only p {
+            margin-left: 0;
+        }
+
+    /*.tel-dist a{display: unset;}*/
+    .tel-dist span {
+        display: none;
+    }
+
+    .info-vw .info-dist {
+        display: none;
+    }
+
+    .info-vw {
+        justify-content: flex-end;
+        padding: 0 10px;
+    }
+
+    .btn-menu-interior {
+        padding: 0 0 0 10px;
+    }
+
+    /*COTIZACIÃ“N*/
+    .formulario h3 {
+        font-size: 25px;
+    }
+
+    /*CITA SERVICIO*/
+    .formulario .form-home .checkbox-item {
+        padding: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    /*FORM HOME*/
+    .form-home .form-control,
+    .form-home .form-group {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+
+    .form-home .slc {
+        width: 100%;
+        margin: 0 0 0px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    /*FOOTER*/
+    .item-footer {
+        width: 50%;
+    }
+
+    /*BANNER HOME*/
+    .content-home-banner .item-banner {
+        width: 100%;
+    }
+
+    .item-banner .card-banner .info-card {
+        padding: 0px 15px 20px;
+    }
+
+    /*SLIDER MODELOS HOME*/
+    .container.container-slider {
+        padding: 35px 0;
+    }
+
+    section .container {
+        padding: 0 15px;
+    }
+
+    /*CRM MÃ“VIL*/
+    .menu-icon {
+        display: block;
+    }
+
+    .iconWhatsappMenu {
+        display: block;
+    }
+
+    /*CRM*/
+    .crm {
+        display: none;
+    }
+
+    /*MENU*/
+    .info-vw {
+        padding: 0 20px;
+    }
+
+        .info-vw i.icon-vw_icon-menu {
+            padding-left: 20px;
+        }
+
+    /*THANK YOU PAGE*/
+    .thank-page .btn-tp {
+        flex-direction: column;
+    }
+
+    .btn-tp .btn {
+        margin: 10px auto;
+    }
+
+    /*QUIENES SOMOS*/
+    .info-txt ul li {
+        font-size: 14px;
+    }
+
+    .info-txt {
+        padding: 0 25px;
+    }
+
+    .title-interior.qs p {
+        margin-left: 0;
+    }
+
+    .title-interior.qs {
+        margin-top: 25px;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .banner-inicio .info-interior-auto {
+        top: 80%;
+    }
+
+    .banner-inicio h1 {
+        font-size: 30px;
+    }
+
+    /*BOLSA DE TRABAJO*/
+    .btn-bt {
+        flex-direction: column;
+    }
+
+        .btn-bt .btn {
+            width: 100%;
+            margin: 10px auto;
+        }
+
+    .info-interior-auto.bt {
+        top: 70%;
+    }
+
+    .vacante-item {
+        width: 100%;
+    }
+
+        .vacante-item:last-child {
+            margin-bottom: 30px;
+        }
+
+    .title-interior.bt {
+        padding-left: 0;
+    }
+
+        .title-interior.bt h2 {
+            margin-top: 30px;
+        }
+
+    .info-vacante .datos br {
+        display: block;
+    }
+
+    .info-vacante .datos font {
+        display: none;
+    }
+
+    .vacante-item p {
+        margin-left: 0;
+    }
+
+    .btn-vacante {
+        margin-left: 0;
+    }
+
+    /*CONTACTO*/
+    .directorio-item {
+        width: 100%;
+    }
+
+    .contacto-item {
+        width: 100%;
+    }
+
+    .contacto .form-home .slc {
+        width: calc(100% - 20px);
+    }
+
+    .contacto .form-home .form-group {
+        width: calc(100% - 15px);
+    }
+
+    #contacto .title-interior h2 span {
+        display: block;
+    }
+
+    /*MANTENIMIENTO*/
+    .iconos-item {
+        width: 50%;
+    }
+
+    /*FONDO AZUL*/
+    #teInteresa {
+        padding: 30px 0;
+        margin-top: 50px;
+    }
+
+    /*GARANTIA*/
+    .garantia-sec ul {
+        padding-left: 0;
+    }
+
+    /*LONG DRIVE*/
+    .icon-vw_logo-long-drive {
+        transform: translate(-50%, -30%);
+    }
+
+    .long-drive-sec ul {
+        padding-left: 0;
+    }
+
+    .long-drive-sec .precios p {
+        font-size: 30px;
+    }
+
+    /*RESPALDO*/
+    .item-mmovil .t-movil .precios-mant {
+        font-size: 17px;
+    }
+
+    .manual-content {
+        padding: 40px 0;
+    }
+
+    .itemMRV {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .legal-sections {
+        padding: 25px 15px !important;
+    }
+    /*COOKIES*/
+    .content-cookie p {
+        font-size: 14px;
+    }
+
+    /*CREDIT*/
+    .credito-info {
+        flex-direction: column;
+    }
+
+    .fin-img picture.img-absolute {
+        position: relative;
+        top: unset;
+        left: unset;
+        width: unset;
+    }
+
+        .fin-img picture.img-absolute img {
+            width: 100%;
+            margin-top: 25px;
+        }
+
+    .fin-img img {
+        padding-left: 0;
+    }
+
+    .fin-img.pos2 .img-absolute2 img {
+        margin-top: 25px;
+    }
+
+    .fin-img.pos2 .img-absolute2 {
+        position: relative;
+        left: unset;
+    }
+
+    .financiamiento-content {
+        padding: 25px 0;
+    }
+
+    /*Promos*/
+    .promos-home-info .promo-fin .btn {
+        margin: 20px 20px 10px 0;
+    }
+
+    .promos-home-info article {
+        font-size: 14px;
+    }
+
+    .promos-btn .btn {
+        margin: 10px 10px;
+        width: 180px;
+    }
+
+    .inicio-promos {
+        padding-top: 50px;
+    }
+
+    /*DATEPICKER*/
+    .fecha {
+        width: 100%;
+    }
+
+    /*SECCIÃ“N MODELOS*/
+    .item-modelo {
+        width: 100%;
+    }
+
+        .item-modelo .back-color {
+            height: 205px;
+        }
+
+    .item-opinion {
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: space-evenly;
+    }
+
+    /*estrellas opiniÃ³n*/
+    .item-barras {
+        width: 100%;
+    }
+
+    .starsOpt img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /*familia suv*/
+    .modal.modalSuvs .modal-header .close {
+        padding: 0px 37px;
+    }
+
+    .modal.modalSuvs .modal-dialog {
+        max-width: 100%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+        .modal.modalSuvs .modal-dialog .modal-body video {
+            width: 100%;
+        }
+
+    .Centralogo2 img {
+        width: 93px !important;
+    }
+
+    .item-modelo {
+        width: 100%;
+    }
+
+    .item-footer {
+        border-right: none;
+    }
+
+    /*.item-footer:nth-child(odd) {
+                border-right: 1px solid #000;
+            }*/
+
+    .itemDirF {
+        width: 100%;
+    }
+
+    .logo-xs {
+        margin-top: 0;
+    }
+
+    .contadorVilla {
+        top: 85px;
+    }
+
+    .mensajeGraciass {
+        width: 90%;
+        top: 170px;
+    }
+
+    /*villa navideÃ±a*/
+    .content-FormVilla {
+        height: 119vh;
+    }
+
+    .cotPolo .form-group {
+        width: 100% !important;
+        margin: 0 0 25px;
+    }
+
+    .formCheck.midSize {
+        width: 100% !important;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .contadorVilla .title {
+        width: 188px;
+    }
+
+    .mensajeGraciass {
+        top: 140px;
+    }
+
+    .close-menu {
+        left: -35px;
+    }
+
+    .option-menu ul li a {
+        font-size: 18px;
+    }
+
+    .option-menu ul li {
+        margin-bottom: 20px;
+    }
+
+    .info-vw i {
+        padding-left: 25px;
+    }
+
+    /*SLIDER MODELOS HOME*/
+    .slider-modelos-home .back-color {
+        height: 145px;
+    }
+
+    .slider-modelos-home h4 {
+        font-size: 20px;
+    }
+
+    /*PROMOS HOME*/
+    .promos-home-info article {
+        width: 100%;
+    }
+
+    .promos-home-info .promo-fin {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+        .promos-home-info .promo-fin .btn {
+            margin: 10px auto;
+        }
+
+    /*FORMULARIOS*/
+    .custom-control-label {
+        font-size: 14px;
+    }
+
+    /*BOLSA DE TRABAJO*/
+    .div-btn {
+        flex-direction: column;
+    }
+
+        .div-btn .btn {
+            margin: 10px auto;
+        }
+
+    .info-interior-auto.bt {
+        top: 55%;
+    }
+
+    .btn-bt .btn {
+        width: 85%;
+        margin: 10px 0;
+    }
+
+    /*FONDO AZUL*/
+    .btn-fin .btn {
+        margin: 15px auto;
+    }
+
+    .interior-fin p {
+        font-size: 18px;
+    }
+
+    .interior-fin .btn-fin {
+        flex-direction: column;
+    }
+
+    /*LONG DRIVE*/
+    .precios .div-precios {
+        width: 260px;
+    }
+
+    .promos-btn .btn {
+        margin: 10px 5px;
+        width: 140px;
+        line-height: 1.2;
+    }
+
+    /*SECCION MODELOS*/
+    .item-modelo .back-color {
+        height: 165px;
+    }
+
+    h2.titulowhat {
+        font-size: 14px;
+    }
+
+    .imgclose {
+        width: 40px;
+        position: relative;
+        z-index: 4;
+        right: 0;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+
+    .formVilla {
+        width: 90%;
+        height: auto;
+        padding: 25px 25px;
+    }
+
+    .contadorVilla {
+        top: 75px;
+        margin-top: 65px;
+        height: 65px;
+        padding: 0;
+    }
+
+        .contadorVilla span {
+            font-size: 35px;
+            height: 65px;
+        }
+
+    .itemVillaNav3 {
+        margin-top: -130px;
+    }
+
+    .txtVilla {
+        /* width: 320px;*/
+        width: 90%;
+        top: 14%;
+        /* left: 50%; */
+        left: 5%;
+        transform: translate(0%, 0%);
+    }
+
+        .txtVilla h2 {
+            font-size: 25px;
+        }
+
+        .txtVilla p {
+            font-size: 13px;
+            line-height: 17px;
+        }
+}
+
+/*SECCION registro whatsapp*/
+
+@media (max-width: 414px) {
+    .slider-desk {
+        display: none !important
+    }
+
+    .slider-tab {
+        display: none !important
+    }
+
+    .slider-mob {
+        display: block !important
+    }
+}
+
+@media (max-width: 400px) {
+    #loadingEnviar img {
+        left: 0;
+    }
+
+    .info-home-slide {
+        top: 27% !important;
+    }
+}
+
+@media(min-width:320px) and (max-width:425px) {
+    h2.titulowhat {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .formwhat {
+        width: calc(20% - 20px)
+    }
+
+    .tipowhatsapp {
+        font-size: 15px
+    }
+
+    h2.titulowhat {
+        font-size: 16px;
+    }
+
+    /*we conect go*/
+    .info-logo-wc h1 {
+        font-size: 20px !important;
+    }
+
+    .banner-we-conect h2 {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    h2.titulowhat {
+        font-size: 20px;
+    }
+}
+
+.formwhat {
+    width: calc(33% - 20px)
+}
+
+h2.titulowhat {
+    font-size: 22px;
+}
+
+.Centralogo {
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+}
+
+/*.w-70 {
+    width: 50% !important;
+}*/
+
+.alinealogoText {
+    text-align: initial;
+}
+
+.vertical-line {
+    width: 0px;
+    height: 100%;
+    border: 1px ridge #736b6b24;
+}
+
+.ocultaComentarios {
+    display: none;
+}
+
+.categoriaRatinImg {
+    width: 24px !important;
+    height: 24px;
+}
+
+.linea {
+    border-top: 1px solid #ccc;
+    padding-top: 25px;
+}
+
+/*TomadeAuto*/
+
+.contTenk {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.5);
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.imgTenk {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    cursor: pointer;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.title-banner {
+    color: #fff;
+    font-size: 40px;
+}
+
+.promos-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.promos-dato {
+    margin: auto;
+    text-align: left !important;
+}
+
+    .promos-dato p {
+        color: #fff;
+        text-align: center;
+    }
+
+.img-promos img {
+    width: 100%;
+}
+
+#seccTomAuto .promos-dato {
+    width: 40%;
+    padding: 0 3% 0 3%;
+}
+
+.container.contacto {
+    max-width: 1200px;
+    margin: 25px auto 0;
+}
+
+.cot-rapida p {
+    text-align: center !important;
+}
+
+a.text-red.avisoPriv {
+    color: #A63348 !important;
+}
+
+.avisoPriv .texto-bold a {
+    font-weight: 700;
+}
+
+.avisoPriv .texto-bold label {
+    font-weight: 700;
+}
+
+.btnenvia {
+    cursor: pointer;
+}
+
+.encabezado {
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+#seccTomAuto {
+    background-color: #005478;
+}
+
+    /*#seccTomAuto .promos-dato {
+                width: 40%;
+                padding: 0 5% 0 10%;
+            }*/
+
+    #seccTomAuto .img-promos {
+        width: 60%;
+    }
+
+.custom-select {
+    background-position: right calc(4% - 3px) center !important;
+}
+
+.promo-tituloCompramosAutos {
+    position: absolute;
+    left: 147px;
+    top: 121px;
+    width: auto;
+    height: 53px;
+}
+
+    .promo-tituloCompramosAutos p {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 32.07px;
+        color: var(--color-blanco);
+    }
+
+.btn:hover {
+    /* color: #ffff;*/
+    color: #4cc7f4;
+    text-decoration: none;
+}
+
+
+@media (max-width: 575px) {
+    #seccTomAuto .promos-dato {
+        padding: 40px 25px;
+        order: 1;
+        width: 100%;
+    }
+
+    #seccTomAuto .img-promos {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #seccTomAuto .promos-dato {
+        padding: 0 5% 0 5%;
+    }
+}
+
+@media (max-width: 991px) {
+    /* #seccTomAuto .promos-dato {
+                width: 50%;
+            }*/
+}
+
+@media (max-width: 575px) {
+    .imgTenk {
+        width: 100%;
+    }
+}
+/*TomadeAuto*/
+
+/*modelos*/
+.nameprecio {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'VWText-Regular';
+    margin-bottom: 0px !important;
+}
+
+/*logo xs*/
+.logoxs {
+    width: 230px;
+    filter: brightness(0.7);
+}
+
+    .logoxs:hover {
+        filter: contrast(0%) brightness(2);
+    }
+
+
+/*boton familia suvw en versiones*/
+.btn-famSuv {
+    width: 200px;
+}
+
+a.btn.btn-bluefamSuvw {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #001D50;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (max-width: 1440px) and (min-width: 1367px) {
+    /*villa navideÃ±a*/
+    .content-FormVilla {
+        height: 115vh;
+    }
+}
+
+@media (max-width:1366px) and (min-width: 1025px) {
+    /*villa navideÃ±a*/
+    .content-FormVilla {
+        height: 130vh;
+    }
+
+    .datos-contacto {
+        width: 32%;
+    }
+}
+
+.btnVWplus {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -78%);
+}
+
+    .btnVWplus .btn {
+        margin: 0;
+    }
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1400px) {
+
+    /*btnvwplus*/
+
+    .btnVWplus {
+        transform: translate(-50%, -50%);
+    }
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.long-drive-incluye {
+    background-color: #001D50;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    gap: 20px;
+
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+.long-drive-incluye img {
+    max-width: 120%;
+}
+
+.long-drive-incluye h2,
+.long-drive-incluye p,
+.long-drive-incluye span {
+    color: white;
+}
+
+.long-drive-incluye h2 {
+    text-align: left;
+}
+
+.long-drive-incluye p {
+    color: white;
+    font-size: 18px;
+    font-family: 'VWText-Regular';
+}
+
+@media(max-width: 1200px) {
+    .long-drive-incluye {
+        max-width: 100%;
+        background-color: transparent;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        gap: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .long-drive-incluye h2 {
+        margin-block: 0;
+        font-size: 32px;
+    }
+
+    .long-drive-incluye p,
+    .long-drive-incluye li {
+        font-size: 16px;
+    }
+
+    .long-drive-incluye img {
+        order: -1;
+        max-width: 100vw;
+        margin-inline: auto;
+    }
+
+    .long-drive-incluye-contenido {
+        max-width: 80%;
+        margin-inline: auto;
+        background-color: #001D50;
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .long-drive-incluye-contenido {
+        max-width:100%;
+    }
+}
+
+@media (max-width: 620px) {
+    .long-drive-incluye-contenido {
+        grid-template-columns: 1fr;
+    }
+}
+
+.incluye-lista div {
+    display: flex;
+}
+.incluye-lista svg {
+    margin-right: 15px;
+}
+
+.banner-final {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+}
+.banner-final img {
+    position: relative;
+    top: -150px;
+    width: 100%;
+}
+.banner-final .info-interior-auto-longdrive {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+.banner-final .info-interior-auto-longdrive p {
+    padding-left: 2rem;
+    margin-block: 3rem;
+}
+
+@media (max-width: 1200px) {
+    .banner-final {
+        max-height: 800px;
+    }
+    .banner-final img {
+        top: 0px;
+    }
+}
+
+@media(max-width: 900px) {
+    .banner-final,
+    .banner-final img {
+        height: 800px;
+    }
+    .banner-final img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 580px) {
+    .banner-final,
+    .banner-final img {
+        max-height: 160vh;
+        height: 160vh;
+    }
+    .banner-final img {
+        right: 0;
+    }
+    .banner-final .info-interior-auto-longdrive {
+        width: 100%;
+        top: 3% !important;
+        transform: translateY(3%) !important;
+    }
+}
+
+.modelos-coberturas a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.modelos-coberturas span {
+    display: inline;
+}
+
+.modelos-coberturas-precio {
+    display: block !important;
+    font-size: 2.8rem !important;
+    padding: 10px 30px 35px;
+    border-left: 3px solid #DFE4E8;
+}
+
+.modelos-coberturas li {
+    font-family: VWHead-Bold;
+}
+
+
+/*
+* jQuery Mobile 1.3.1
+* Git HEAD hash: 74b4bec049fd93e4fe40205e6157de16eb64eb46 <> Date: Mon Apr 8 2013 19:41:28 UTC
+* http://jquerymobile.com
+*
+* Copyright 2010, 2013 jQuery Foundation, Inc. and other contributors
+* Released under the MIT license.
+* http://jquery.org/license
+*
+*/
+
+
+/* Swatches */
+/* A
+-----------------------------------------------------------------------------------------------------------*/
+
+table.prueba td{
+  
+    border-width: 0px;
+  }
+  
+  .ui-messages-error{
+      background-color:rgba(179, 142, 93, 0.8);
+      border: Black;
+  } 
+  
+  .ui-messages-error-detail{
+      background-color:rgba(179, 142, 93, 0.1);
+      color:Black;
+  }
+  
+  .ui-messages-info{
+      background-color:rgba(179, 142, 93, 0.8);
+      border: Black;
+  }
+  
+  .ui-messages-info-detail{
+      background-color:rgba(179, 142, 93, 0.1);
+      color:Black;
+      font-size: 15.5px;
+  }
+  
+  .ui-state-default{
+      background-color:Silver;
+      color:Black;
+  }
+  
+  .ui-bar-a {
+      border: 1px solid #b3b3b3 /*{a-bar-border}*/;
+      background: #eeeeee /*{a-bar-background-color}*/;
+      color: #790101 /*{a-bar-color}*/;
+      
+      text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #3de152 /*{a-bar-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #f0f0f0 /*{a-bar-background-start}*/), to( #dddddd /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #f0f0f0 /*{a-bar-background-start}*/, #dddddd /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #f0f0f0 /*{a-bar-background-start}*/, #dddddd /*{a-bar-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #f0f0f0 /*{a-bar-background-start}*/, #dddddd /*{a-bar-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #f0f0f0 /*{a-bar-background-start}*/, #dddddd /*{a-bar-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #f0f0f0 /*{a-bar-background-start}*/, #dddddd /*{a-bar-background-end}*/);
+  }
+  .ui-bar-a .ui-link-inherit {
+      color: #790101 /*{a-bar-color}*/;
+  }
+  .ui-bar-a a.ui-link {
+      color: #7cc4e7 /*{a-bar-link-color}*/;
+      
+  }
+  .ui-bar-a a.ui-link:visited {
+      color: #2489ce /*{a-bar-link-visited}*/;
+  }
+  .ui-bar-a a.ui-link:hover {
+      color: #2489ce /*{a-bar-link-hover}*/;
+  }
+  .ui-bar-a a.ui-link:active {
+      color: #2489ce /*{a-bar-link-active}*/;
+  }
+  .ui-bar-a,
+  .ui-bar-a input,
+  .ui-bar-a select,
+  .ui-bar-a textarea,
+  .ui-bar-a button {
+       font-family: Montserrat /*{global-font-family}*/;
+  }
+  .ui-body-a,
+  .ui-overlay-a {
+      border: 1px solid #aaaaaa /*{a-body-border}*/;
+      color: #903c3c /*{a-body-color}*/;
+      text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #0b25da /*{a-body-shadow-color}*/;
+      background: #202009 /*{a-body-background-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #202009 /*{a-body-background-start}*/), to( #202009 /*{a-body-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #202009 /*{a-body-background-start}*/, #202009 /*{a-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #202009 /*{a-body-background-start}*/, #202009 /*{a-body-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #202009 /*{a-body-background-start}*/, #202009 /*{a-body-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #202009 /*{a-body-background-start}*/, #202009 /*{a-body-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #202009 /*{a-body-background-start}*/, #202009 /*{a-body-background-end}*/);
+  }
+  .ui-overlay-a {
+      background-image: none;
+      border-width: 0;
+  }
+  .ui-body-a,
+  .ui-body-a input,
+  .ui-body-a select,
+  .ui-body-a textarea,
+  .ui-body-a button {
+       font-family: Montserrat /*{global-font-family}*/;
+  }
+  .ui-body-a .ui-link-inherit {
+      color: #903c3c /*{a-body-color}*/;
+  }
+  .ui-body-a .ui-link {
+      color: #09c843 /*{a-body-link-color}*/;
+      
+  }
+  .ui-body-a .ui-link:visited {
+      color: #2489ce /*{a-body-link-visited}*/;
+  }
+  .ui-body-a .ui-link:hover {
+      color: #2489ce /*{a-body-link-hover}*/;
+  }
+  .ui-body-a .ui-link:active {
+      color: #2489ce /*{a-body-link-active}*/;
+  }
+  .ui-btn-up-a {
+      border: 1px solid #cccccc /*{a-bup-border}*/;
+      background: #eeeeee /*{a-bup-background-color}*/;
+      
+      color: #2f3e46 /*{a-bup-color}*/;
+      text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #ffffff /*{a-bup-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #ffffff /*{a-bup-background-start}*/), to( #f1f1f1 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #ffffff /*{a-bup-background-start}*/, #f1f1f1 /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #ffffff /*{a-bup-background-start}*/, #f1f1f1 /*{a-bup-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #ffffff /*{a-bup-background-start}*/, #f1f1f1 /*{a-bup-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #ffffff /*{a-bup-background-start}*/, #f1f1f1 /*{a-bup-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #ffffff /*{a-bup-background-start}*/, #f1f1f1 /*{a-bup-background-end}*/);
+  }
+  .ui-btn-up-a:visited,
+  .ui-btn-up-a a.ui-link-inherit {
+      color: #2f3e46 /*{a-bup-color}*/;
+  }
+  .ui-btn-hover-a {
+      border: 1px solid #bbbbbb /*{a-bhover-border}*/;
+      background: #dfdfdf /*{a-bhover-background-color}*/;
+      
+      color: #2f3e46 /*{a-bhover-color}*/;
+      text-shadow: 0 /*{a-bhover-shadow-x}*/ 1px /*{a-bhover-shadow-y}*/ 0 /*{a-bhover-shadow-radius}*/ #ffffff /*{a-bhover-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #f6f6f6 /*{a-bhover-background-start}*/), to( #e0e0e0 /*{a-bhover-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #f6f6f6 /*{a-bhover-background-start}*/, #e0e0e0 /*{a-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #f6f6f6 /*{a-bhover-background-start}*/, #e0e0e0 /*{a-bhover-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #f6f6f6 /*{a-bhover-background-start}*/, #e0e0e0 /*{a-bhover-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #f6f6f6 /*{a-bhover-background-start}*/, #e0e0e0 /*{a-bhover-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #f6f6f6 /*{a-bhover-background-start}*/, #e0e0e0 /*{a-bhover-background-end}*/);
+  }
+  .ui-btn-hover-a:visited,
+  .ui-btn-hover-a:hover,
+  .ui-btn-hover-a a.ui-link-inherit {
+      color: #2f3e46 /*{a-bhover-color}*/;
+  }
+  .ui-btn-down-a {
+      border: 1px solid #bbbbbb /*{a-bdown-border}*/;
+      background: #d6d6d6 /*{a-bdown-background-color}*/;
+      
+      color: #2f3e46 /*{a-bdown-color}*/;
+      text-shadow: 0 /*{a-bdown-shadow-x}*/ 1px /*{a-bdown-shadow-y}*/ 0 /*{a-bdown-shadow-radius}*/ #ffffff /*{a-bdown-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #d0d0d0 /*{a-bdown-background-start}*/), to( #dfdfdf /*{a-bdown-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #d0d0d0 /*{a-bdown-background-start}*/, #dfdfdf /*{a-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #d0d0d0 /*{a-bdown-background-start}*/, #dfdfdf /*{a-bdown-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #d0d0d0 /*{a-bdown-background-start}*/, #dfdfdf /*{a-bdown-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #d0d0d0 /*{a-bdown-background-start}*/, #dfdfdf /*{a-bdown-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #d0d0d0 /*{a-bdown-background-start}*/, #dfdfdf /*{a-bdown-background-end}*/);
+  }
+  .ui-btn-down-a:visited,
+  .ui-btn-down-a:hover,
+  .ui-btn-down-a a.ui-link-inherit {
+      color: #2f3e46 /*{a-bdown-color}*/;
+  }
+  .ui-btn-up-a,
+  .ui-btn-hover-a,
+  .ui-btn-down-a {
+       font-family: Montserrat /*{global-font-family}*/;
+      text-decoration: none;
+  }
+  /* B
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-bar-b {
+      border: 1px solid rgb(179, 142, 93) /*{b-bar-border}*/;
+      background: rgba(179, 142, 93, 0.05) /*{b-bar-background-color}*/;
+      color: #3e3e3e /*{b-bar-color}*/;
+      
+      text-shadow: 0 /*{b-bar-shadow-x}*/ 0px /*{b-bar-shadow-y}*/ 0 /*{b-bar-shadow-radius}*/ #ffffff /*{b-bar-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( rgba(179, 142, 93, 0.06) /*{b-bar-background-start}*/, rgb(179, 142, 93) /*{b-bar-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( rgba(179, 142, 93, 0.06) /*{b-bar-background-start}*/, rgb(179, 142, 93) /*{b-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( rgba(179, 142, 93, 0.06) /*{b-bar-background-start}*/, rgb(179, 142, 93) /*{b-bar-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( rgba(179, 142, 93, 0.06) /*{b-bar-background-start}*/, rgb(179, 142, 93) /*{b-bar-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( rgba(179, 142, 93, 0.06) /*{b-bar-background-start}*/, rgb(179, 142, 93) /*{b-bar-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( rgba(179, 142, 93, 0.06) /*{b-bar-background-start}*/, rgb(179, 142, 93) /*{b-bar-background-end}*/);
+  }
+  .ui-bar-b .ui-link-inherit {
+      color: #3e3e3e /*{b-bar-color}*/;
+  }
+  .ui-bar-b a.ui-link {
+      color: #7cc4e7 /*{b-bar-link-color}*/;
+      
+  }
+  .ui-bar-b a.ui-link:visited {
+      color: #2489ce /*{b-bar-link-visited}*/;
+  }
+  .ui-bar-b a.ui-link:hover {
+      color: #2489ce /*{b-bar-link-hover}*/;
+  }
+  .ui-bar-b a.ui-link:active {
+      color: #2489ce /*{b-bar-link-active}*/;
+  }
+  .ui-bar-b,
+  .ui-bar-b input,
+  .ui-bar-b select,
+  .ui-bar-b textarea,
+  .ui-bar-b button {
+       font-family: Montserrat /*{global-font-family}*/;
+  }
+  .ui-body-b,
+  .ui-overlay-b {
+      border: 1px solid #aaaaaa /*{b-body-border}*/;
+      color: #333333 /*{b-body-color}*/;
+      text-shadow: 0 /*{b-body-shadow-x}*/ 1px /*{b-body-shadow-y}*/ 0 /*{b-body-shadow-radius}*/ #ffffff /*{b-body-shadow-color}*/;
+      background: #f9f9f9 /*{b-body-background-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #f9f9f9 /*{b-body-background-start}*/), to( #eeeeee /*{b-body-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #f9f9f9 /*{b-body-background-start}*/, #eeeeee /*{b-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #f9f9f9 /*{b-body-background-start}*/, #eeeeee /*{b-body-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #f9f9f9 /*{b-body-background-start}*/, #eeeeee /*{b-body-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #f9f9f9 /*{b-body-background-start}*/, #eeeeee /*{b-body-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #f9f9f9 /*{b-body-background-start}*/, #eeeeee /*{b-body-background-end}*/);
+  }
+  .ui-overlay-b {
+      background-image: none;
+      border-width: 0;
+  }
+  .ui-body-b,
+  .ui-body-b input,
+  .ui-body-b select,
+  .ui-body-b textarea,
+  .ui-body-b button {
+       font-family: Montserrat /*{global-font-family}*/;
+  }
+  .ui-body-b .ui-link-inherit {
+      color: #333333 /*{b-body-color}*/;
+  }
+  .ui-body-b .ui-link {
+      color: #2489ce /*{b-body-link-color}*/;
+      
+  }
+  .ui-body-b .ui-link:visited {
+      color: #2489ce /*{b-body-link-visited}*/;
+  }
+  .ui-body-b .ui-link:hover {
+      color: #2489ce /*{b-body-link-hover}*/;
+  }
+  .ui-body-b .ui-link:active {
+      color: #2489ce /*{b-body-link-active}*/;
+  }
+  .ui-btn-up-b {
+      border: 1px solid #cccccc /*{b-bup-border}*/;
+      background: #eeeeee /*{b-bup-background-color}*/;
+      
+      color: #2f3e46 /*{b-bup-color}*/;
+      text-shadow: 0 /*{b-bup-shadow-x}*/ 1px /*{b-bup-shadow-y}*/ 0 /*{b-bup-shadow-radius}*/ #ffffff /*{b-bup-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #ffffff /*{b-bup-background-start}*/), to( #f1f1f1 /*{b-bup-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #ffffff /*{b-bup-background-start}*/, #f1f1f1 /*{b-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #ffffff /*{b-bup-background-start}*/, #f1f1f1 /*{b-bup-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #ffffff /*{b-bup-background-start}*/, #f1f1f1 /*{b-bup-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #ffffff /*{b-bup-background-start}*/, #f1f1f1 /*{b-bup-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #ffffff /*{b-bup-background-start}*/, #f1f1f1 /*{b-bup-background-end}*/);
+  }
+  .ui-btn-up-b:visited,
+  .ui-btn-up-b a.ui-link-inherit {
+      color: #2f3e46 /*{b-bup-color}*/;
+  }
+  .ui-btn-hover-b {
+      border: 1px solid #bbbbbb /*{b-bhover-border}*/;
+      background: #dfdfdf /*{b-bhover-background-color}*/;
+      
+      color: #2f3e46 /*{b-bhover-color}*/;
+      text-shadow: 0 /*{b-bhover-shadow-x}*/ 1px /*{b-bhover-shadow-y}*/ 0 /*{b-bhover-shadow-radius}*/ #ffffff /*{b-bhover-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #f6f6f6 /*{b-bhover-background-start}*/), to( #e0e0e0 /*{b-bhover-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #f6f6f6 /*{b-bhover-background-start}*/, #e0e0e0 /*{b-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #f6f6f6 /*{b-bhover-background-start}*/, #e0e0e0 /*{b-bhover-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #f6f6f6 /*{b-bhover-background-start}*/, #e0e0e0 /*{b-bhover-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #f6f6f6 /*{b-bhover-background-start}*/, #e0e0e0 /*{b-bhover-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #f6f6f6 /*{b-bhover-background-start}*/, #e0e0e0 /*{b-bhover-background-end}*/);
+  }
+  .ui-btn-hover-b:visited,
+  .ui-btn-hover-b:hover,
+  .ui-btn-hover-b a.ui-link-inherit {
+      color: #2f3e46 /*{b-bhover-color}*/;
+  }
+  .ui-btn-down-b {
+      border: 1px solid #bbbbbb /*{b-bdown-border}*/;
+      background: #d6d6d6 /*{b-bdown-background-color}*/;
+      
+      color: #2f3e46 /*{b-bdown-color}*/;
+      text-shadow: 0 /*{b-bdown-shadow-x}*/ 1px /*{b-bdown-shadow-y}*/ 0 /*{b-bdown-shadow-radius}*/ #ffffff /*{b-bdown-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #d0d0d0 /*{b-bdown-background-start}*/), to( #dfdfdf /*{b-bdown-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #d0d0d0 /*{b-bdown-background-start}*/, #dfdfdf /*{b-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #d0d0d0 /*{b-bdown-background-start}*/, #dfdfdf /*{b-bdown-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #d0d0d0 /*{b-bdown-background-start}*/, #dfdfdf /*{b-bdown-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #d0d0d0 /*{b-bdown-background-start}*/, #dfdfdf /*{b-bdown-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #d0d0d0 /*{b-bdown-background-start}*/, #dfdfdf /*{b-bdown-background-end}*/);
+  }
+  .ui-btn-down-b:visited,
+  .ui-btn-down-b:hover,
+  .ui-btn-down-b a.ui-link-inherit {
+      color: #2f3e46 /*{b-bdown-color}*/;
+  }
+  .ui-btn-up-b,
+  .ui-btn-hover-b,
+  .ui-btn-down-b {
+       font-family: Montserrat /*{global-font-family}*/;
+      text-decoration: none;
+  }
+  
+  
+  /* C
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-bar-c {
+      border: 1px solid #b3b3b3 /*{c-bar-border}*/;
+      background: #eeeeee /*{c-bar-background-color}*/;
+      color: #3e3e3e /*{c-bar-color}*/;
+      
+      text-shadow: 0 /*{c-bar-shadow-x}*/ 1px /*{c-bar-shadow-y}*/ 0 /*{c-bar-shadow-radius}*/ #ffffff /*{c-bar-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #f0f0f0 /*{c-bar-background-start}*/), to( #dddddd /*{c-bar-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #f0f0f0 /*{c-bar-background-start}*/, #dddddd /*{c-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #f0f0f0 /*{c-bar-background-start}*/, #dddddd /*{c-bar-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #f0f0f0 /*{c-bar-background-start}*/, #dddddd /*{c-bar-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #f0f0f0 /*{c-bar-background-start}*/, #dddddd /*{c-bar-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #f0f0f0 /*{c-bar-background-start}*/, #dddddd /*{c-bar-background-end}*/);
+  }
+  .ui-bar-c .ui-link-inherit {
+      color: #3e3e3e /*{c-bar-color}*/;
+  }
+  .ui-bar-c a.ui-link {
+      color: #7cc4e7 /*{c-bar-link-color}*/;
+      
+  }
+  .ui-bar-c a.ui-link:visited {
+      color: #2489ce /*{c-bar-link-visited}*/;
+  }
+  .ui-bar-c a.ui-link:hover {
+      color: #2489ce /*{c-bar-link-hover}*/;
+  }
+  .ui-bar-c a.ui-link:active {
+      color: #2489ce /*{c-bar-link-active}*/;
+  }
+  .ui-bar-c,
+  .ui-bar-c input,
+  .ui-bar-c select,
+  .ui-bar-c textarea,
+  .ui-bar-c button {
+       font-family: Montserrat /*{global-font-family}*/;
+  }
+  .ui-body-c,
+  .ui-overlay-c {
+      border: 1px solid rgb(179, 142, 93) /*{c-body-border}*/;
+      color: #333333 /*{c-body-color}*/;
+      text-shadow: 0 /*{c-body-shadow-x}*/ 0px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #ffffff /*{c-body-shadow-color}*/;
+      background: #f9f9f9 /*{c-body-background-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #f9f9f9 /*{c-body-background-start}*/, rgba(179, 142, 93,.15) /*{c-body-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #f9f9f9 /*{c-body-background-start}*/, rgba(179, 142, 93,.15) /*{c-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #f9f9f9 /*{c-body-background-start}*/, rgba(179, 142, 93,.15) /*{c-body-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #f9f9f9 /*{c-body-background-start}*/, rgba(179, 142, 93,.15) /*{c-body-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #f9f9f9 /*{c-body-background-start}*/, rgba(179, 142, 93,.15) /*{c-body-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #f9f9f9 /*{c-body-background-start}*/, rgba(179, 142, 93,.15) /*{c-body-background-end}*/);
+  }
+  .ui-overlay-c {
+      background-image: none;
+      border-width: 0;
+  }
+  .ui-body-c,
+  .ui-body-c input,
+  .ui-body-c select,
+  .ui-body-c textarea,
+  .ui-body-c button {
+       font-family: Montserrat /*{global-font-family}*/;
+  }
+  .ui-body-c .ui-link-inherit {
+      color: #333333 /*{c-body-color}*/;
+  }
+  .ui-body-c .ui-link {
+      color: #2489ce /*{c-body-link-color}*/;
+      
+  }
+  .ui-body-c .ui-link:visited {
+      color: #2489ce /*{c-body-link-visited}*/;
+  }
+  .ui-body-c .ui-link:hover {
+      color: #2489ce /*{c-body-link-hover}*/;
+  }
+  .ui-body-c .ui-link:active {
+      color: #2489ce /*{c-body-link-active}*/;
+  }
+  .ui-btn-up-c {
+      border: 1px solid #cccccc /*{c-bup-border}*/;
+      background: #eeeeee /*{c-bup-background-color}*/;
+      
+      color: #2f3e46 /*{c-bup-color}*/;
+      text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #ffffff /*{c-bup-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #ffffff /*{c-bup-background-start}*/), to( #f1f1f1 /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #ffffff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #ffffff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #ffffff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #ffffff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #ffffff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/);
+  }
+  .ui-btn-up-c:visited,
+  .ui-btn-up-c a.ui-link-inherit {
+      color: #2f3e46 /*{c-bup-color}*/;
+  }
+  .ui-btn-hover-c {
+      border: 1px solid #bbbbbb /*{c-bhover-border}*/;
+      background: #dfdfdf /*{c-bhover-background-color}*/;
+      
+      color: #2f3e46 /*{c-bhover-color}*/;
+      text-shadow: 0 /*{c-bhover-shadow-x}*/ 1px /*{c-bhover-shadow-y}*/ 0 /*{c-bhover-shadow-radius}*/ #ffffff /*{c-bhover-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #f6f6f6 /*{c-bhover-background-start}*/), to( #e0e0e0 /*{c-bhover-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/);
+  }
+  .ui-btn-hover-c:visited,
+  .ui-btn-hover-c:hover,
+  .ui-btn-hover-c a.ui-link-inherit {
+      color: #2f3e46 /*{c-bhover-color}*/;
+  }
+  .ui-btn-down-c {
+      border: 1px solid #bbbbbb /*{c-bdown-border}*/;
+      background: #d6d6d6 /*{c-bdown-background-color}*/;
+      
+      color: #2f3e46 /*{c-bdown-color}*/;
+      text-shadow: 0 /*{c-bdown-shadow-x}*/ 1px /*{c-bdown-shadow-y}*/ 0 /*{c-bdown-shadow-radius}*/ #ffffff /*{c-bdown-shadow-color}*/;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #d0d0d0 /*{c-bdown-background-start}*/), to( #dfdfdf /*{c-bdown-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/);
+  }
+  .ui-btn-down-c:visited,
+  .ui-btn-down-c:hover,
+  .ui-btn-down-c a.ui-link-inherit {
+      color: #2f3e46 /*{c-bdown-color}*/;
+  }
+  .ui-btn-up-c,
+  .ui-btn-hover-c,
+  .ui-btn-down-c {
+       font-family: Montserrat /*{global-font-family}*/;
+      text-decoration: none;
+  }
+  
+  
+  /* Structure */
+  /* links within "buttons" 
+  -----------------------------------------------------------------------------------------------------------*/
+  a.ui-link-inherit {
+      text-decoration: none !important;
+  }
+  /* Active class used as the "on" state across all themes
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-btn-active {
+      border: 1px solid #2373a5 /*{global-active-border}*/;
+      background: #387bbe /*{global-active-background-color}*/;
+      
+      color: #ffffff /*{global-active-color}*/;
+      cursor: pointer;
+      text-shadow: 0 /*{global-active-shadow-x}*/ 1px /*{global-active-shadow-y}*/ 0 /*{global-active-shadow-radius}*/ #3373a5 /*{global-active-shadow-color}*/;
+      text-decoration: none;
+      background-image: -webkit-gradient(linear, left top, left bottom, from( #5393c5 /*{global-active-background-start}*/), to( #6facd5 /*{global-active-background-end}*/)); /* Saf4+, Chrome */
+      background-image: -webkit-linear-gradient( #5393c5 /*{global-active-background-start}*/, #6facd5 /*{global-active-background-end}*/); /* Chrome 10+, Saf5.1+ */
+      background-image:    -moz-linear-gradient( #5393c5 /*{global-active-background-start}*/, #6facd5 /*{global-active-background-end}*/); /* FF3.6 */
+      background-image:     -ms-linear-gradient( #5393c5 /*{global-active-background-start}*/, #6facd5 /*{global-active-background-end}*/); /* IE10 */
+      background-image:      -o-linear-gradient( #5393c5 /*{global-active-background-start}*/, #6facd5 /*{global-active-background-end}*/); /* Opera 11.10+ */
+      background-image:         linear-gradient( #5393c5 /*{global-active-background-start}*/, #6facd5 /*{global-active-background-end}*/);
+       font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
+  }
+  .ui-btn-active:visited,
+  .ui-btn-active:hover,
+  .ui-btn-active a.ui-link-inherit {
+      color: #ffffff /*{global-active-color}*/;
+  }
+  /* button inner top highlight
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-btn-inner {
+      border-top: 1px solid 	#fff;
+      border-color: 			rgba(255,255,255,.3);
+  }
+  /* corner rounding classes
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-corner-all {
+      -webkit-border-radius: .6em /*{global-radii-blocks}*/;
+      border-radius: .6em /*{global-radii-blocks}*/;
+  }
+  /* Form field separator
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-br {
+      border-color: rgb(130,130,130);
+      border-color: rgba(130,130,130,.3);
+      border-style: solid;
+  }
+  /* Interaction cues
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-disabled {
+      filter: Alpha(Opacity=30);
+      opacity: .3;
+      zoom: 1;
+  }
+  .ui-disabled,
+  .ui-disabled a {
+      cursor: default !important;
+      pointer-events: none;
+  }
+  /* Icons
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-icon,
+  .ui-icon-searchfield:after {
+      background-color: #666666 /*{global-icon-color}*/;
+      background-color: rgba(0,0,0,.4) /*{global-icon-disc}*/;
+      background-image: url(images/icons-18-white.png) /*{global-icon-set}*/;
+      background-repeat: no-repeat;
+      -webkit-border-radius: 				9px;
+      border-radius: 						9px;
+  }
+  /* Alt icon color
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-icon-alt .ui-icon,
+  .ui-icon-alt .ui-icon-searchfield:after {
+      background-color: 						#fff;
+      background-color: 						rgba(255,255,255,.3);
+      background-image: url(images/icons-18-black.png);
+      background-repeat: no-repeat;
+  }
+  /* No disc
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-icon-nodisc .ui-icon,
+  .ui-icon-nodisc .ui-icon-searchfield:after,
+  .ui-icon-nodisc .ui-icon-alt .ui-icon,
+  .ui-icon-nodisc .ui-icon-alt .ui-icon-searchfield:after {
+      background-color: transparent;
+  }
+  /* Icon sprite
+  -----------------------------------------------------------------------------------------------------------*/
+  /* plus minus */
+  .ui-icon-plus {
+      background-position: 	-1px -1px;
+  }
+  .ui-icon-minus {
+      background-position: 	-37px -1px;
+  }
+  /* delete/close */
+  .ui-icon-delete {
+      background-position: 	-73px -1px;
+  }
+  /* arrows */
+  .ui-icon-arrow-r {
+      background-position: 	-108px -1px;
+  }
+  .ui-icon-arrow-l {
+      background-position: 	-144px -1px;
+  }
+  .ui-icon-arrow-u {
+      background-position: 	-180px -1px;
+  }
+  .ui-icon-arrow-d {
+      background-position: 	-216px -1px;
+  }
+  /* misc */
+  .ui-icon-check {
+      background-position: 	-252px -1px;
+  }
+  .ui-icon-gear {
+      background-position: 	-288px -1px;
+  }
+  .ui-icon-refresh {
+      background-position: 	-323px -1px;
+  }
+  .ui-icon-forward {
+      background-position: 	-360px -1px;
+  }
+  .ui-icon-back {
+      background-position: 	-396px -1px;
+  }
+  .ui-icon-grid {
+      background-position: 	-432px -1px;
+  }
+  .ui-icon-star {
+      background-position: 	-467px -1px;
+  }
+  .ui-icon-alert {
+      background-position: 	-503px -1px;
+  }
+  .ui-icon-info {
+      background-position: 	-539px -1px;
+  }
+  .ui-icon-home {
+      background-position: 	-575px -1px;
+  }
+  /* search */
+  .ui-icon-search,
+  .ui-icon-searchfield:after {
+      background-position: 	-611px -1px;
+  }
+  /* checkbox radio */
+  .ui-icon-checkbox-on {
+      background-position: 	-647px -1px;
+  }
+  .ui-icon-checkbox-off {
+      background-position: 	-683px -1px;
+  }
+  .ui-icon-radio-on {
+      background-position: 	-718px -1px;
+  }
+  .ui-icon-radio-off {
+      background-position: 	-754px -1px;
+  }
+  /* menu edit */
+  .ui-icon-bars {
+      background-position: 	-788px -1px;
+  }
+  .ui-icon-edit {
+      background-position: 	-824px -1px;
+  }
+  /* HD/"retina" sprite
+  -----------------------------------------------------------------------------------------------------------*/
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+         only screen and (min--moz-device-pixel-ratio: 1.3),
+         only screen and (min-resolution: 200dpi) {
+      
+      .ui-icon-plus, .ui-icon-minus, .ui-icon-delete, .ui-icon-arrow-r,
+      .ui-icon-arrow-l, .ui-icon-arrow-u, .ui-icon-arrow-d, .ui-icon-check,
+      .ui-icon-gear, .ui-icon-refresh, .ui-icon-forward, .ui-icon-back,
+      .ui-icon-grid, .ui-icon-star, .ui-icon-alert, .ui-icon-info, .ui-icon-home, .ui-icon-bars, .ui-icon-edit,
+      .ui-icon-search, .ui-icon-searchfield:after, 
+      .ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on {
+          background-image: url(images/icons-36-white.png);
+          -moz-background-size: 864px 18px;
+          -o-background-size: 864px 18px;
+          -webkit-background-size: 864px 18px;
+          background-size: 864px 18px;
+      }
+      .ui-icon-alt .ui-icon {
+          background-image: url(images/icons-36-black.png);
+      }
+      .ui-icon-plus {
+          background-position: 	0 50%;
+      }
+      .ui-icon-minus {
+          background-position: 	-36px 50%;
+      }
+      .ui-icon-delete {
+          background-position: 	-72px 50%;
+      }
+      .ui-icon-arrow-r {
+          background-position: 	-108px 50%;
+      }
+      .ui-icon-arrow-l {
+          background-position: 	-144px 50%;
+      }
+      .ui-icon-arrow-u {
+          background-position: 	-179px 50%;
+      }
+      .ui-icon-arrow-d {
+          background-position: 	-215px 50%;
+      }
+      .ui-icon-check {
+          background-position: 	-252px 50%;
+      }
+      .ui-icon-gear {
+          background-position: 	-287px 50%;
+      }
+      .ui-icon-refresh {
+          background-position: 	-323px 50%;
+      }
+      .ui-icon-forward {
+          background-position: 	-360px 50%;
+      }
+      .ui-icon-back {
+          background-position: 	-395px 50%;
+      }
+      .ui-icon-grid {
+          background-position: 	-431px 50%;
+      }
+      .ui-icon-star {
+          background-position: 	-467px 50%;
+      }
+      .ui-icon-alert {
+          background-position: 	-503px 50%;
+      }
+      .ui-icon-info {
+          background-position: 	-538px 50%;
+      }
+      .ui-icon-home {
+          background-position: 	-575px 50%;
+      }
+      .ui-icon-search,
+      .ui-icon-searchfield:after {
+          background-position: 	-611px 50%;
+      }
+      .ui-icon-checkbox-on {
+          background-position: 	-647px 50%;
+      }
+      .ui-icon-checkbox-off {
+          background-position: 	-683px 50%;
+      }
+      .ui-icon-radio-on {
+          background-position: 	-718px 50%;
+      }
+      .ui-icon-radio-off {
+          background-position: 	-754px 50%;
+      }
+      .ui-icon-bars {
+          background-position: 	-788px 50%;
+      
+      }.ui-icon-edit {
+          background-position: 	-824px 50%;
+      }
+  }
+  /* checks,radios */
+  .ui-checkbox .ui-icon,
+  .ui-selectmenu-list .ui-icon {
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+  }
+  .ui-icon-checkbox-off,
+  .ui-icon-radio-off {
+      background-color: transparent;	
+  }
+  .ui-checkbox-on .ui-icon,
+  .ui-radio-on .ui-icon {
+      background-color: #387bbe /*{global-active-background-color}*/; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
+  }
+  /* loading icon */
+  .ui-icon-loading {
+      background: url(images/ajax-loader.gif);
+      background-size: 46px 46px;
+  }
+  /* Button corner class
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-btn-corner-all {
+      -webkit-border-radius: 1em /*{global-radii-buttons}*/;
+      border-radius: 1em /*{global-radii-buttons}*/;
+  }
+  /* radius clip workaround for cleaning up corner trapping */
+  .ui-corner-all,
+  .ui-btn-corner-all {
+      -webkit-background-clip: padding;
+      background-clip: padding-box;
+  }
+  /* Overlay / modal
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-overlay {
+      background: #666;
+      filter: Alpha(Opacity=50);
+      opacity: .5;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+  }
+  .ui-overlay-shadow {
+      -moz-box-shadow: 0 0 12px 			rgba(0,0,0,.6);
+      -webkit-box-shadow: 0 0 12px 		rgba(0,0,0,.6);
+      box-shadow: 0 0 12px 				rgba(0,0,0,.6);
+  }
+  .ui-shadow {
+      -moz-box-shadow: 0 3px 3px /*{global-box-shadow-size}*/ rgba(179, 142, 93, 0.8) /*{global-box-shadow-color}*/;
+      -webkit-box-shadow: 0 3px 3px /*{global-box-shadow-size}*/ rgba(179, 142, 93, 0.8) /*{global-box-shadow-color}*/;
+      box-shadow: 0 3px 3px /*{global-box-shadow-size}*/ rgba(179, 142, 93, 0.8) /*{global-box-shadow-color}*/
+  }
+  .ui-bar-a .ui-shadow,
+  .ui-bar-b .ui-shadow ,
+  .ui-bar-c .ui-shadow  {
+      -moz-box-shadow: 0 1px 0 				rgba(255,255,255,.3);
+      -webkit-box-shadow: 0 1px 0 			rgba(255,255,255,.3);
+      box-shadow: 0 1px 0 					rgba(255,255,255,.3);
+  }
+  .ui-shadow-inset {
+      -moz-box-shadow: inset 0 1px 4px 		rgba(0,0,0,.2);
+      -webkit-box-shadow: inset 0 1px 4px 	rgba(0,0,0,.2);
+      box-shadow: inset 0 1px 4px 			rgba(0,0,0,.2);
+  }
+  .ui-icon-shadow {
+      -moz-box-shadow: 0 1px 0 rgba(255,255,255,.4) /*{global-icon-shadow}*/;
+      -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.4) /*{global-icon-shadow}*/;
+      box-shadow: 0 1px 0 rgba(255,255,255,.4) /*{global-icon-shadow}*/;
+  }
+  /* Focus state - set here for specificity (note: these classes are added by JavaScript)
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-btn:focus, .ui-link-inherit:focus {
+      outline: 0;
+  }
+  .ui-btn.ui-focus {
+      z-index: 1;
+  }
+  .ui-focus,
+  .ui-btn:focus {
+      -moz-box-shadow: inset 0 0 3px #387bbe /*{global-active-background-color}*/, 0 0 9px #387bbe /*{global-active-background-color}*/;
+      -webkit-box-shadow: inset 0 0 3px #387bbe /*{global-active-background-color}*/, 0 0 9px #387bbe /*{global-active-background-color}*/;
+      box-shadow: inset 0 0 3px #387bbe /*{global-active-background-color}*/, 0 0 9px #387bbe /*{global-active-background-color}*/;
+  }
+  .ui-input-text.ui-focus,
+  .ui-input-search.ui-focus {
+      -moz-box-shadow: 0 0 12px #387bbe /*{global-active-background-color}*/;
+      -webkit-box-shadow: 0 0 12px #387bbe /*{global-active-background-color}*/;
+      box-shadow: 0 0 12px #387bbe /*{global-active-background-color}*/;	
+  }
+  /* unset box shadow in browsers that don't do it right
+  -----------------------------------------------------------------------------------------------------------*/
+  .ui-mobile-nosupport-boxshadow * {
+      -moz-box-shadow: none !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+  }
+  /* ...and bring back focus */
+  .ui-mobile-nosupport-boxshadow .ui-focus,
+  .ui-mobile-nosupport-boxshadow .ui-btn:focus,
+  .ui-mobile-nosupport-boxshadow .ui-link-inherit:focus {
+      outline-width: 1px;
+      outline-style: auto;
+  }
+              
